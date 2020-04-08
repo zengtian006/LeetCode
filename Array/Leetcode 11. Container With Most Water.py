@@ -10,4 +10,5 @@ class Solution:
             else:
                 right-=1
         return res
+# 求面积 就要考虑左右边界，Two pointer
 # 如果左边小于右边，left向左移，因为如果right向右移的化，肯定面积会更小

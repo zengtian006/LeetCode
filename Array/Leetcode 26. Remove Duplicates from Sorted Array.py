@@ -6,3 +6,6 @@ class Solution:
                 nums[idx] = nums[j]
                 idx += 1
         return idx
+
+# 双指针适用in-place modification
+# 一个指针（快）遍历，另一个指针（慢）指向下一个要交换的位置，快指针遍历到符合要求的就与慢指针的值交换

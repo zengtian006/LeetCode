@@ -10,3 +10,5 @@ class Solution:
             if (n - middle) > citations[middle]:
                 low = middle +1 
         return n-low
+
+# 看到Sorted首先想到Binary Search

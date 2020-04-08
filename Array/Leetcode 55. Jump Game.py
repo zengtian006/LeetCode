@@ -6,5 +6,5 @@ class Solution:
                 farthest = max(farthest, nums[i]+i)
         return farthest>=len(nums)-1
 
-
+# 局部最优推导出全局最优 考虑Greedy
 # 从第一个数开始，计算farthest范围内的farthest。最后如果farthest超过数组，则return True

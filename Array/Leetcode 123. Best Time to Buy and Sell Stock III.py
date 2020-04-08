@@ -18,5 +18,6 @@ class Solution:
             res = max(res, x+y)
         return res
 
+# 求极值，考虑DP
 # 分别从左(1,n-1) 右(n-2,0)计算最大profit
 # 比如 [a,b,c,d,e,f,g,h,i], 以e为分割点，e之前最大profit看dp_left。 e之后最大profit看dp_right. 

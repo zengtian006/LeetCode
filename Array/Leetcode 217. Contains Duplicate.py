@@ -6,3 +6,5 @@ class Solution:
                 return True
             dic[num] = dic.get(num,0)+1
         return False
+
+# O(1) 读写 考虑hashtable, set

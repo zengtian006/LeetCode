@@ -12,3 +12,4 @@ class WordDistance:
             for j in self.dic[word2]:
                 res = min(res, abs(i-j))
         return res
+# 优化读，用hashtable

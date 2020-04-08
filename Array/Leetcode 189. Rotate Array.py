@@ -5,3 +5,5 @@ class Solution:
         """
         k = k%len(nums)
         nums[:] = nums[-k:]+nums[:-k]
+
+# 减少重复计算，k%length

@@ -9,4 +9,5 @@ class Solution:
                 preMax = curMax
         return res
 
+#求机值，除了考虑Dynamic programming，还要考虑Greedy，局部最优推导出全局最优
 #preMax 指的是上一步走的最大距离，一旦走到preMax，step+1，并且更新preMax为curMax(curMax是preMax范围内的最大距离)，因为题目假设一定可以到达最终，所以也可不需要在preMax范围内求curMax，只需一直计算curMax即可

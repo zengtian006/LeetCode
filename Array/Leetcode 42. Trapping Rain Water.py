@@ -13,3 +13,5 @@ class Solution:
                 res += rightmost - height[right]
                 right-=1
         return res
+
+# 求面基，考虑左右边界，双指针

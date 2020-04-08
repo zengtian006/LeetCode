@@ -8,4 +8,5 @@ class Solution:
             max_profit = max(max_profit, p-min_buy)
         return max_profit
 
+# 求极值，考虑DP
 # 计算前面最小的buy price，再用当前数字减去最小的buy price
