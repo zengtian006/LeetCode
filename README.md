@@ -54,6 +54,40 @@
 ## String
 |  #  | Title | Solution | Time | Space | Remark |
 | --- | ----- | -------- | ---- | ----- | -------- |
+| Leetcode 28          | Implement strStr()                                     | Python | __| __ |  |
+| Leetcode 186         | Reverse Words in a String II                           | Python | __| __ |  |
+| Leetcode 205         | Isomorphic Strings                                     | Python | __| __ | HashMap |
+| Leetcode 293         | Flip Game                                              | Python | __| __ |  |
+| Leetcode 294         | Flip Game II                                           | Python | __| __ | BackTracking |
+| Leetcode 290         | Word Pattern                                           | Python | __| __ | HashMap |
+| Leetcode 242         | Valid Anagram                                          | Python | __| __ |  |
+| Leetcode 49          | Group Anagrams                                         | Python | __| __ |  |
+| Leetcode 249         | Group Shifted Strings                                  | Python | __| __ |  |
+| Leetcode 161         | One Edit Distance                                      | Python | __| __ |  |
+| Leetcode 38          | Count and Say                                          | Python | __| __ |  |
+| Leetcode 316         | Remove Duplicate Letters                               | Python | __| __ |  |
+| Leetcode 271         | Encode and Decode Strings                              | Python | __| __ |  |
+| Leetcode 168         | Excel Sheet Column Title                               | Python | __| __ |  |
+| Leetcode 171         | Excel Sheet Column Number                              | Python | __| __ |  |
+| Leetcode 13          | Roman to Integer                                       | Python | __| __ |  |
+| Leetcode 12          | Integer to Roman                                       | Python | __| __ |  |
+| Leetcode 273         | Integer to English Words                               | Python | __| __ |  |
+| Leetcode 157         | Read N Characters Given Read4                          | Python | __| __ |  |
+| Leetcode 158         | Read N Characters Given Read4 II - Call multiple times | Python | __| __ |  |
+| Leetcode 68          | Text Justification                                     | Python | __| __ |  |
+| Leetcode 76          | Minimum Window Substring                               | Python | __| __ | Sliding Window |
+| Leetcode 3           | Longest Substring Without Repeating Characters         | Python | __| __ | Sliding Window |
+| Leetcode 340         | Longest Substring with At Most K Distinct Characters   | Python | __| __ | Sliding Window |
+| Leetcode 125         | Valid Palindrome                                       | Python | __| __ | Two Pointer |
+| Leetcode 5           | Longest Palindromic Substring                          | Python | __| __ | DP |
+| Leetcode 214         | Shortest Palindrome                                    | Python | __| __ |  |
+| Leetcode 336         | Palindrome Pairs                                       | Python | __| __ |  |
+| Leetcode 20          | Valid Parentheses                                      | Python | __| __ |  |
+| Leetcode 22          | Generate Parentheses                                   | Python | __| __ | BackTracking |
+| Leetcode 32          | Longest Valid Parentheses                              | Python | __| __ | DP |
+| Leetcode 241         | Different Ways to Add Parentheses                      | Python | __| __ | Divide and Conquer |
+| Leetcode 301         | Remove Invalid Parentheses                             | Python | __| __ | BFS |
+| Leetcode 115         | Distinct Subsequences                                  | Python | __| __ | DP |
 
 ## Math
 |  #  | Title | Solution | Time | Space | Remark |
