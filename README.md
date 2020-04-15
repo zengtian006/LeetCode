@@ -28,27 +28,27 @@
 | Leetcode 334 | Increasing Triplet Subsequence| __| __ |  |
 | Leetcode 128 | Longest Consecutive Sequence| __| __ |  |
 | Leetcode 287 | Find the Duplicate Number| __| __ | Binary Search |
-| Leetcode 289 | Game of Life| Python | __| __ |  |
-| Leetcode 57  | Insert Interval| Python | __| __ |  |
-| Leetcode 56  | Merge Intervals| Python | __| __ |  |
-| Leetcode 252| Meeting Rooms| Python | __| __ |  |
-| Leetcode 253| Meeting Rooms II| Python | __| __ |  |
-| Leetcode 352| Data Stream as Disjoint Intervals| Python | __| __ |  |
-| Leetcode 239| Sliding Window Maximum| Python | __| __ |  |
-| Leetcode 295| Find Median from Data Stream| Python | __| __ |  |
-| Leetcode 53| Maximum Subarray| Python | __| __ |  |
-| Leetcode 325| Maximum Size Subarray Sum Equals k | Python | __| __ |  |
-| Leetcode 209| Minimum Size Subarray Sum| Python | __| __ | Two Pointer |
-| Leetcode 238| Product of Array Except Self| Python | __| __ |  |
-| Leetcode 152| Maximum Product Subarray| Python | __| __ |  |
-| Leetcode 228| Summary Ranges| Python | __| __ |  |
-| Leetcode 163| Missing Ranges| Python | __| __ |  |
-| Leetcode 88| Merge Sorted Array| Python | __| __ | Two Pointer |
-| Leetcode 75| Sort Colors| Python | __| __ | Two Pointer |
-| Leetcode 283| Move Zeroes| Python | __| __ | Two Pointer |
-| Leetcode 376| Wiggle Subsequence| Python | __| __ |  |
-| Leetcode 280| Wiggle Sort| Python | __| __ |  |
-| Leetcode 324| Wiggle Sort II| Python | __| __ |  |
+| Leetcode 289 | Game of Life | __| __ |  |
+| Leetcode 57  | Insert Interval | __| __ |  |
+| Leetcode 56  | Merge Intervals | __| __ |  |
+| Leetcode 252| Meeting Rooms | __| __ |  |
+| Leetcode 253| Meeting Rooms II | __| __ |  |
+| Leetcode 352| Data Stream as Disjoint Intervals | __| __ |  |
+| Leetcode 239| Sliding Window Maximum | __| __ |  |
+| Leetcode 295| Find Median from Data Stream | __| __ |  |
+| Leetcode 53| Maximum Subarray | __| __ |  |
+| Leetcode 325| Maximum Size Subarray Sum Equals k  | __| __ |  |
+| Leetcode 209| Minimum Size Subarray Sum | __| __ | Two Pointer |
+| Leetcode 238| Product of Array Except Self | __| __ |  |
+| Leetcode 152| Maximum Product Subarray | __| __ |  |
+| Leetcode 228| Summary Ranges | __| __ |  |
+| Leetcode 163| Missing Ranges | __| __ |  |
+| Leetcode 88| Merge Sorted Array | __| __ | Two Pointer |
+| Leetcode 75| Sort Colors | __| __ | Two Pointer |
+| Leetcode 283| Move Zeroes | __| __ | Two Pointer |
+| Leetcode 376| Wiggle Subsequence | __| __ |  |
+| Leetcode 280| Wiggle Sort | __| __ |  |
+| Leetcode 324| Wiggle Sort II | __| __ |  |
 
 
 ## String
