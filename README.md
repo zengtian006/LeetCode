@@ -100,7 +100,7 @@
 | Leetcode 43  | Multiply Strings         | __| __ |  |
 | Leetcode 29  | Divide Two Integers      | __| __ |  |
 | Leetcode 69  | Sqrt(x)                  | __| __ | Binary Search  |
-| Leetcode 50  | Pow(x, n)                | __| __| __ |  |
+| Leetcode 50  | Pow(x, n)                | __| __ |  |
 | Leetcode 367 | Valid Perfect Square     | __| __ | Binary Search |
 | Leetcode 204 | Count Primes             | __| __ |  |
 | Leetcode 1   | Two Sum                  | __| __ |  |
