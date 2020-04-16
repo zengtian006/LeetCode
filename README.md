@@ -91,22 +91,22 @@
 | Leetcode 115| Valid Parenthesis String | __| __ | BackTracking |
 
 ## Math
-|  #  | Title | Solution | Time | Space | Remark |
-| ---- | ----- | -------- | ---- | ----- | -------- |
-| Leetcode 7   | Reverse Integer          | __| __| __ |  |
-| Leetcode 66  | Plus One                 | __| __| __ |  |
-| Leetcode 8   | String to Integer (atoi) | __| __| __ |  |
-| Leetcode 67  | Add Binary               | __| __| __ |  |
-| Leetcode 43  | Multiply Strings         | __| __| __ |  |
-| Leetcode 29  | Divide Two Integers      | __| __| __ |  |
-| Leetcode 69  | Sqrt(x)                  | __| __| __ | Binary Search  |
-| Leetcode 50  | Pow(x, n)                | __| __| __| __ |  |
-| Leetcode 367 | Valid Perfect Square     | __| __| __ | Binary Search |
-| Leetcode 204 | Count Primes             | __| __| __ |  |
-| Leetcode 1   | Two Sum                  | __| __| __ |  |
-| Leetcode 15  | 3Sum                     | __| __| __ |  |
-| Leetcode 18  | 4Sum                     | __| __| __ |  |
-| Leetcode 231 | Power of Two             | __| __| __ |  |
-| Leetcode 202 | Happy Number             | __| __| __ |  |
-| Leetcode 263 | Ugly Number              | __| __| __ |  |
-| Leetcode 264 | Ugly Number II           | __| __| __ |  |
+|  #  | Title | Time | Space | Remark |
+| ---- | ----- | ---- | ----- | -------- |
+| Leetcode 7   | Reverse Integer          | __| __ |  |
+| Leetcode 66  | Plus One                 | __| __ |  |
+| Leetcode 8   | String to Integer (atoi) | __| __ |  |
+| Leetcode 67  | Add Binary               | __| __ |  |
+| Leetcode 43  | Multiply Strings         | __| __ |  |
+| Leetcode 29  | Divide Two Integers      | __| __ |  |
+| Leetcode 69  | Sqrt(x)                  | __| __ | Binary Search  |
+| Leetcode 50  | Pow(x, n)                | __| __| __ |  |
+| Leetcode 367 | Valid Perfect Square     | __| __ | Binary Search |
+| Leetcode 204 | Count Primes             | __| __ |  |
+| Leetcode 1   | Two Sum                  | __| __ |  |
+| Leetcode 15  | 3Sum                     | __| __ |  |
+| Leetcode 18  | 4Sum                     | __| __ |  |
+| Leetcode 231 | Power of Two             | __| __ |  |
+| Leetcode 202 | Happy Number             | __| __ |  |
+| Leetcode 263 | Ugly Number              | __| __ |  |
+| Leetcode 264 | Ugly Number II           | __| __ |  |
