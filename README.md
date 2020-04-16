@@ -87,7 +87,8 @@
 | Leetcode 32| Longest Valid Parentheses | __| __ | DP |
 | Leetcode 241| Different Ways to Add Parentheses | __| __ | Divide&Conquer |
 | Leetcode 301| Remove Invalid Parentheses | __| __ | BFS |
-| Leetcode 115| Distinct Subsequences | __| __ | DP |
+| Leetcode 678| Remove Invalid Parentheses | __| __ | BFS |
+| Leetcode 115| Valid Parenthesis String | __| __ | BackTracking |
 
 ## Math
 |  #  | Title | Solution | Time | Space | Remark |
