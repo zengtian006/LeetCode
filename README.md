@@ -18,11 +18,6 @@
 |Leetcode 275| [H-Index II](https://leetcode.com/problems/h-index-ii/description/)  | __| __ | Binary Search |
 |Leetcode 244| [Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/description/)  | __| __ | Hashmap |
 |Leetcode 245| [Shortest Word Distance III](https://leetcode.com/problems/shortest-word-distance-iii/description/)  | __| __ |  |
-<details>
-  <summary>Read More...</summary>
-
-|  #  | Title  | Time | Space | Remark |
-| ---- | -----  | ---- | ----- | -------- |
 | Leetcode 217 | Contains Duplicate| __| __ |  |
 | Leetcode 219 | Contains Duplicate II | __| __ |  |
 | Leetcode 220 | Contains Duplicate III| __| __ |  |
@@ -59,7 +54,7 @@
 | Leetcode 376| Wiggle Subsequence | __| __ |  |
 | Leetcode 280| Wiggle Sort | __| __ |  |
 | Leetcode 324| Wiggle Sort II | __| __ |  |
-</details>
+
 
 ## String
 |  #  | Title  | Time | Space | Remark |
@@ -76,11 +71,6 @@
 | Leetcode 161| One Edit Distance | __| __ |  |
 | Leetcode 38| Count and Say | __| __ |  |
 | Leetcode 316| Remove Duplicate Letters | __| __ |  |
-<details>
-  <summary>Read More...</summary>
-  
-|  #  | Title | Time | Space | Remark |
-| ---- | ----- | ---- | ----- | -------- |
 | Leetcode 271| Encode and Decode Strings | __| __ |  |
 | Leetcode 168| Excel Sheet Column Title | __| __ |  |
 | Leetcode 171| Excel Sheet Column Number | __| __ |  |
@@ -104,7 +94,7 @@
 | Leetcode 301| Remove Invalid Parentheses | __| __ | BFS |
 | Leetcode 678| Remove Invalid Parentheses | __| __ | BFS |
 | Leetcode 115| Valid Parenthesis String | __| __ | BackTracking |
-</details>
+
 
 ## Math  
 |  #  | Title | Time | Space | Remark |
@@ -121,17 +111,12 @@
 | Leetcode 204 | Count Primes             | __| __ |  |
 | Leetcode 1   | Two Sum                  | __| __ |  |
 | Leetcode 15  | 3Sum                     | __| __ |  |
-<details>
-  <summary>Read More...</summary>
-
-|  #  | Title | Time | Space | Remark |
-| ---- | ----- | ---- | ----- | -------- |
 | Leetcode 18  | 4Sum                     | __| __ |  |
 | Leetcode 231 | Power of Two             | __| __ |  |
 | Leetcode 202 | Happy Number             | __| __ |  |
 | Leetcode 263 | Ugly Number              | __| __ |  |
 | Leetcode 264 | Ugly Number II           | __| __ |  |
-</details>
+
 
 ## Tree
 |  #  | Title | Time | Space | Remark |
@@ -148,11 +133,6 @@
 | Leetcode 110  | Balanced Binary Tree                           | __| __ |  |
 | Leetcode 124  | Binary Tree Maximum Path Sum                   | __| __ |  |
 | Leetcode 337  | House Robber III                               | __| __ |  |
-<details>
-  <summary>Click to expand!</summary>
-  
-|  #  | Title | Time | Space | Remark |
-| ---- | ----- | ---- | ----- | -------- |  
 | Leetcode 98   | Validate Binary Search Tree                    | __| __ |  |
 | Leetcode 235  | Lowest Common Ancestor of a Binary Search Tree | __| __ | BST |
 | Leetcode 236  | Lowest Common Ancestor of a Binary Tree        | __| __ |  |
@@ -166,4 +146,3 @@
 | Leetcode 117  | Populating Next Right Pointers in Each Node II | __| __ |  |
 | Leetcode 314  | Binary Tree Vertical Order Traversal           | __| __ |  |
 | Leetcode 96   | Unique Binary Search Trees                     | __| __ | DP |
-</details>
