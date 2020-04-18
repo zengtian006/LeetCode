@@ -1,4 +1,6 @@
 ## Array
+<details>
+  <summary>Click to expand!</summary>
 |  #  | Title  | Time | Space | Remark |
 | ---- | -----  | ---- | ----- | -------- |
 |Leetcode 27| [Remove Element](https://leetcode.com/problems/remove-element/ "Remove Element") | _O(n)_| _O(1)_ | Two Pointer |
@@ -49,9 +51,11 @@
 | Leetcode 376| Wiggle Subsequence | __| __ |  |
 | Leetcode 280| Wiggle Sort | __| __ |  |
 | Leetcode 324| Wiggle Sort II | __| __ |  |
-
+</details>
 
 ## String
+<details>
+  <summary>Click to expand!</summary>
 |  #  | Title  | Time | Space | Remark |
 | ----- | -----  | ---- | ----- | -------- |
 | Leetcode 28| Implement strStr()| __| __ |  |
@@ -89,9 +93,11 @@
 | Leetcode 301| Remove Invalid Parentheses | __| __ | BFS |
 | Leetcode 678| Remove Invalid Parentheses | __| __ | BFS |
 | Leetcode 115| Valid Parenthesis String | __| __ | BackTracking |
-
+</details>
 
 ## Math
+<details>
+  <summary>Click to expand!</summary>
 |  #  | Title | Time | Space | Remark |
 | ---- | ----- | ---- | ----- | -------- |
 | Leetcode 7   | Reverse Integer          | __| __ |  |
@@ -111,9 +117,11 @@
 | Leetcode 202 | Happy Number             | __| __ |  |
 | Leetcode 263 | Ugly Number              | __| __ |  |
 | Leetcode 264 | Ugly Number II           | __| __ |  |
-
+</details>
 
 ## Tree
+<details>
+  <summary>Click to expand!</summary>
 |  #  | Title | Time | Space | Remark |
 | ---- | ----- | ---- | ----- | -------- |
 | Leetcode 100  | Same Tree                                      | __| __ |  |
@@ -141,3 +149,4 @@
 | Leetcode 117  | Populating Next Right Pointers in Each Node II | __| __ |  |
 | Leetcode 314  | Binary Tree Vertical Order Traversal           | __| __ |  |
 | Leetcode 96   | Unique Binary Search Trees                     | __| __ | DP |
+</details>
