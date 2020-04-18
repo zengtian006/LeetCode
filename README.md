@@ -90,6 +90,7 @@
 | Leetcode 678| Remove Invalid Parentheses | __| __ | BFS |
 | Leetcode 115| Valid Parenthesis String | __| __ | BackTracking |
 
+
 ## Math
 |  #  | Title | Time | Space | Remark |
 | ---- | ----- | ---- | ----- | -------- |
@@ -110,3 +111,33 @@
 | Leetcode 202 | Happy Number             | __| __ |  |
 | Leetcode 263 | Ugly Number              | __| __ |  |
 | Leetcode 264 | Ugly Number II           | __| __ |  |
+
+
+## Tree
+|  #  | Title | Time | Space | Remark |
+| ---- | ----- | ---- | ----- | -------- |
+| Leetcode 100  | Same Tree                                      | __| __ |  |
+| Leetcode 101  | Symmetric Tree                                 | __| __ |  |
+| Leetcode 226  | Invert Binary Tree                             | __| __ |  |
+| Leetcode 257  | Binary Tree Paths                              | __| __ |  |
+| Leetcode 112  | Path Sum                                       | __| __ |  |
+| Leetcode 113  | Path Sum II                                    | __| __ |  |
+| Leetcode 298  | Binary Tree Longest Consecutive Sequence       | __| __ |  |
+| Leetcode 111  | Minimum Depth of Binary Tree                   | __| __ |  |
+| Leetcode 104  | Maximum Depth of Binary Tree                   | __| __ |  |
+| Leetcode 110  | Balanced Binary Tree                           | __| __ |  |
+| Leetcode 124  | Binary Tree Maximum Path Sum                   | __| __ |  |
+| Leetcode 337  | House Robber III                               | __| __ |  |
+| Leetcode 98   | Validate Binary Search Tree                    | __| __ |  |
+| Leetcode 235  | Lowest Common Ancestor of a Binary Search Tree | __| __ | BST |
+| Leetcode 236  | Lowest Common Ancestor of a Binary Tree        | __| __ |  |
+| Leetcode 108  | Convert Sorted Array to Binary Search Tree     | __| __ | BST |
+| Leetcode 173  | Binary Search Tree Iterator                    | __| __ | BST |
+| Leetcode 230  | Kth Smallest Element in a BST                  | __| __ | BST |
+| Leetcode 297  | Serialize and Deserialize Binary Tree          | __| __ |  |
+| Leetcode 285  | Inorder Successor in BST                       | __| __ | BST |
+| Leetcode 270  | Closest Binary Search Tree Value               | __| __ | BST |
+| Leetcode 116  | Populating Next Right Pointers in Each Node    | __| __ |  |
+| Leetcode 117  | Populating Next Right Pointers in Each Node II | __| __ |  |
+| Leetcode 314  | Binary Tree Vertical Order Traversal           | __| __ |  |
+| Leetcode 96   | Unique Binary Search Trees                     | __| __ | DP |
