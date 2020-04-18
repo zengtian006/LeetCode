@@ -1,6 +1,7 @@
 ## Array
 <details>
   <summary>Click to expand!</summary>
+  
 |  #  | Title  | Time | Space | Remark |
 | ---- | -----  | ---- | ----- | -------- |
 |Leetcode 27| [Remove Element](https://leetcode.com/problems/remove-element/ "Remove Element") | _O(n)_| _O(1)_ | Two Pointer |
@@ -56,6 +57,7 @@
 ## String
 <details>
   <summary>Click to expand!</summary>
+  
 |  #  | Title  | Time | Space | Remark |
 | ----- | -----  | ---- | ----- | -------- |
 | Leetcode 28| Implement strStr()| __| __ |  |
@@ -98,6 +100,7 @@
 ## Math
 <details>
   <summary>Click to expand!</summary>
+  
 |  #  | Title | Time | Space | Remark |
 | ---- | ----- | ---- | ----- | -------- |
 | Leetcode 7   | Reverse Integer          | __| __ |  |
@@ -122,6 +125,7 @@
 ## Tree
 <details>
   <summary>Click to expand!</summary>
+  
 |  #  | Title | Time | Space | Remark |
 | ---- | ----- | ---- | ----- | -------- |
 | Leetcode 100  | Same Tree                                      | __| __ |  |
