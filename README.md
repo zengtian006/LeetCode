@@ -4,8 +4,6 @@
 </p>
 
 ## Array 
-
-  
 |  #  | Title  | Time | Space | Remark |
 | ---- | -----  | ---- | ----- | -------- |
 |Leetcode 27| [Remove Element](https://leetcode.com/problems/remove-element/ "Remove Element") | _O(n)_| _O(1)_ | Two Pointer |
@@ -81,6 +79,8 @@
 <details>
   <summary>Read More...</summary>
   
+|  #  | Title | Time | Space | Remark |
+| ---- | ----- | ---- | ----- | -------- |
 | Leetcode 271| Encode and Decode Strings | __| __ |  |
 | Leetcode 168| Excel Sheet Column Title | __| __ |  |
 | Leetcode 171| Excel Sheet Column Number | __| __ |  |
@@ -123,7 +123,9 @@
 | Leetcode 15  | 3Sum                     | __| __ |  |
 <details>
   <summary>Read More...</summary>
-  
+
+|  #  | Title | Time | Space | Remark |
+| ---- | ----- | ---- | ----- | -------- |
 | Leetcode 18  | 4Sum                     | __| __ |  |
 | Leetcode 231 | Power of Two             | __| __ |  |
 | Leetcode 202 | Happy Number             | __| __ |  |
@@ -149,7 +151,8 @@
 <details>
   <summary>Click to expand!</summary>
   
-  
+|  #  | Title | Time | Space | Remark |
+| ---- | ----- | ---- | ----- | -------- |  
 | Leetcode 98   | Validate Binary Search Tree                    | __| __ |  |
 | Leetcode 235  | Lowest Common Ancestor of a Binary Search Tree | __| __ | BST |
 | Leetcode 236  | Lowest Common Ancestor of a Binary Tree        | __| __ |  |
