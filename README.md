@@ -1,6 +1,10 @@
-## Array
-<details>
-  <summary>Click to expand!</summary>
+<!---svg--->
+<p align="left">
+  <img src="https://img.shields.io/badge/language-Python-yellow.svg?style=flat-square">
+</p>
+
+## Array 
+
   
 |  #  | Title  | Time | Space | Remark |
 | ---- | -----  | ---- | ----- | -------- |
@@ -16,6 +20,11 @@
 |Leetcode 275| [H-Index II](https://leetcode.com/problems/h-index-ii/description/)  | __| __ | Binary Search |
 |Leetcode 244| [Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/description/)  | __| __ | Hashmap |
 |Leetcode 245| [Shortest Word Distance III](https://leetcode.com/problems/shortest-word-distance-iii/description/)  | __| __ |  |
+<details>
+  <summary>Read More...</summary>
+
+|  #  | Title  | Time | Space | Remark |
+| ---- | -----  | ---- | ----- | -------- |
 | Leetcode 217 | Contains Duplicate| __| __ |  |
 | Leetcode 219 | Contains Duplicate II | __| __ |  |
 | Leetcode 220 | Contains Duplicate III| __| __ |  |
@@ -55,9 +64,6 @@
 </details>
 
 ## String
-<details>
-  <summary>Click to expand!</summary>
-  
 |  #  | Title  | Time | Space | Remark |
 | ----- | -----  | ---- | ----- | -------- |
 | Leetcode 28| Implement strStr()| __| __ |  |
@@ -72,6 +78,9 @@
 | Leetcode 161| One Edit Distance | __| __ |  |
 | Leetcode 38| Count and Say | __| __ |  |
 | Leetcode 316| Remove Duplicate Letters | __| __ |  |
+<details>
+  <summary>Read More...</summary>
+  
 | Leetcode 271| Encode and Decode Strings | __| __ |  |
 | Leetcode 168| Excel Sheet Column Title | __| __ |  |
 | Leetcode 171| Excel Sheet Column Number | __| __ |  |
@@ -97,10 +106,7 @@
 | Leetcode 115| Valid Parenthesis String | __| __ | BackTracking |
 </details>
 
-## Math
-<details>
-  <summary>Click to expand!</summary>
-  
+## Math  
 |  #  | Title | Time | Space | Remark |
 | ---- | ----- | ---- | ----- | -------- |
 | Leetcode 7   | Reverse Integer          | __| __ |  |
@@ -115,6 +121,9 @@
 | Leetcode 204 | Count Primes             | __| __ |  |
 | Leetcode 1   | Two Sum                  | __| __ |  |
 | Leetcode 15  | 3Sum                     | __| __ |  |
+<details>
+  <summary>Read More...</summary>
+  
 | Leetcode 18  | 4Sum                     | __| __ |  |
 | Leetcode 231 | Power of Two             | __| __ |  |
 | Leetcode 202 | Happy Number             | __| __ |  |
@@ -123,9 +132,6 @@
 </details>
 
 ## Tree
-<details>
-  <summary>Click to expand!</summary>
-  
 |  #  | Title | Time | Space | Remark |
 | ---- | ----- | ---- | ----- | -------- |
 | Leetcode 100  | Same Tree                                      | __| __ |  |
@@ -140,6 +146,10 @@
 | Leetcode 110  | Balanced Binary Tree                           | __| __ |  |
 | Leetcode 124  | Binary Tree Maximum Path Sum                   | __| __ |  |
 | Leetcode 337  | House Robber III                               | __| __ |  |
+<details>
+  <summary>Click to expand!</summary>
+  
+  
 | Leetcode 98   | Validate Binary Search Tree                    | __| __ |  |
 | Leetcode 235  | Lowest Common Ancestor of a Binary Search Tree | __| __ | BST |
 | Leetcode 236  | Lowest Common Ancestor of a Binary Tree        | __| __ |  |
