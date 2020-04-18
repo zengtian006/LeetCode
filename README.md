@@ -1,8 +1,5 @@
-
-
-
 <!---svg--->
-<p align="left">
+<p align="right">
   <img src="https://img.shields.io/badge/language-Python-yellow.svg?style=flat-square">
 </p>
 
