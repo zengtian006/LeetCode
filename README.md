@@ -146,3 +146,14 @@
 | Leetcode 117  | Populating Next Right Pointers in Each Node II | __| __ |  |
 | Leetcode 314  | Binary Tree Vertical Order Traversal           | __| __ |  |
 | Leetcode 96   | Unique Binary Search Trees                     | __| __ | DP |
+
+## DFS & BFS
+|  #  | Title | Time | Space | Remark |
+| ---- | ----- | ---- | ----- | -------- |
+| Leetcode 200 | Number of Islands         | __| __ | BFS/DFS/Recursive |
+| Leetcode 286 | Walls and Gates           | __| __ | BFS/DFS |
+| Leetcode 130 | Surrounded Regions        | __| __ | DFS |
+| Leetcode 339 | Nested List Weight Sum    | __| __ | BFS |
+| Leetcode 364 | Nested List Weight Sum II | __| __ | BFS |
+| Leetcode 127 | Word Ladder               | __| __ | BFS |
+| Leetcode 126 | Word Ladder II            | __| __ | BFS |
