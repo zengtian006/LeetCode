@@ -94,6 +94,7 @@
 | Leetcode 301| Remove Invalid Parentheses | __| __ | BFS |
 | Leetcode 678| Remove Invalid Parentheses | __| __ | BFS |
 | Leetcode 115| Valid Parenthesis String | __| __ | BackTracking |
+| Leetcode 844| Backspace String Compare | __| __ | Two Pointer |
 
 
 ## Math  
