@@ -162,3 +162,26 @@
 | Leetcode 364 | Nested List Weight Sum II | __| __ | BFS |
 | Leetcode 127 | Word Ladder               | __| __ | BFS |
 | Leetcode 126 | Word Ladder II            | __| __ | BFS |
+
+## Backtracking
+|  #  | Title | Time | Space | Remark |
+| ---- | ----- | ---- | ----- | -------- |
+| Leetcode 78  | Subsets                               | __| __ |  |
+| Leetcode 90  | Subsets II                            | __| __ |  |
+| Leetcode 77  | Combinations                          | __| __ |  |
+| Leetcode 39  | Combination Sum                       | __| __ |  |
+| Leetcode 40  | Combination Sum II                    | __| __ |  |
+| Leetcode 216 | Combination Sum III                   | __| __ |  |
+| Leetcode 377 | Combination Sum IV                    | __| __ | DP |
+| Leetcode 254 | Factor Combinations                   | __| __ |  |
+| Leetcode 46  | Permutations                          | __| __ |  |
+| Leetcode 47  | Permutations II                       | __| __ |  |
+| Leetcode 31  | Next Permutation                      | __| __ |  |
+| Leetcode 60  | Permutation Sequence                  | __| __ |  |
+| Leetcode 291 | Word Pattern II                       | __| __ |  |
+| Leetcode 17  | Letter Combinations of a Phone Number | __| __ |  |
+| Leetcode 282 | Expression Add Operators              | __| __ |  |
+| Leetcode 140 | Word Break II                         | __| __ |  |
+| Leetcode 351 | Android Unlock Patterns               | __| __ |  |
+| Leetcode 51  | N-Queens                              | __| __ |  |
+| Leetcode 52  | N-Queens II                           | __| __ |  |
