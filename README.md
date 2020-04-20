@@ -94,7 +94,7 @@
 | Leetcode 301| Remove Invalid Parentheses | __| __ | BFS |
 | Leetcode 678| Remove Invalid Parentheses | __| __ | BFS |
 | Leetcode 115| Valid Parenthesis String | __| __ | BackTracking |
-| Leetcode 844| Backspace String Compare | __| __ | Two Pointer |
+| Leetcode 844| Backspace String Compare	 | __| __ | Two Pointer |
 
 
 ## Math  
@@ -147,6 +147,10 @@
 | Leetcode 117  | Populating Next Right Pointers in Each Node II | __| __ |  |
 | Leetcode 314  | Binary Tree Vertical Order Traversal           | __| __ |  |
 | Leetcode 96   | Unique Binary Search Trees                     | __| __ | DP |
+| Leetcode 105  | Construct Binary Tree from Preorder and Inorder Traversal    | __| __ |  |
+| Leetcode 106  | Construct Binary Tree from Inorder and Postorder Traversal | __| __ |  |
+| Leetcode 889  | Construct Binary Tree from Preorder and Postorder Traversal| __| __ |  |
+| Leetcode 1008   | Construct Binary Search Tree from Preorder Traversal| __| __ |  |
 
 ## DFS & BFS
 |  #  | Title | Time | Space | Remark |
