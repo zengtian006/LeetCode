@@ -3,6 +3,7 @@
   <img src="https://img.shields.io/badge/language-Python-yellow.svg?style=flat-square">
 </p>
 
+
 ## Array 
 |  #  | Title  | Time | Space | Remark |
 | ---- | -----  | ---- | ----- | -------- |
@@ -163,6 +164,7 @@
 | Leetcode 127 | Word Ladder               | __| __ | BFS |
 | Leetcode 126 | Word Ladder II            | __| __ | BFS |
 
+
 ## Backtracking
 |  #  | Title | Time | Space | Remark |
 | ---- | ----- | ---- | ----- | -------- |
@@ -172,7 +174,6 @@
 | Leetcode 39  | Combination Sum                       | __| __ |  |
 | Leetcode 40  | Combination Sum II                    | __| __ |  |
 | Leetcode 216 | Combination Sum III                   | __| __ |  |
-| Leetcode 377 | Combination Sum IV                    | __| __ | DP |
 | Leetcode 254 | Factor Combinations                   | __| __ |  |
 | Leetcode 46  | Permutations                          | __| __ |  |
 | Leetcode 47  | Permutations II                       | __| __ |  |
@@ -185,3 +186,29 @@
 | Leetcode 351 | Android Unlock Patterns               | __| __ |  |
 | Leetcode 51  | N-Queens                              | __| __ |  |
 | Leetcode 52  | N-Queens II                           | __| __ |  |
+
+
+## Dynamic Programming
+|  #  | Title | Time | Space | Remark |
+| ---- | ----- | ---- | ----- | -------- |
+| Leetcode 70  | Climbing Stairs                 | __| __ |  |
+| Leetcode 62  | Unique Paths                    | __| __ |  |
+| Leetcode 279 | Perfect Squares                 | __| __ | Same as 322,377 |
+| Leetcode 322 | Coin Change                     | __| __ |  |
+| Leetcode 377 | Combination Sum IV              | __| __ |  |
+| Leetcode 139 | Word Break                      | __| __ |  |
+| Leetcode 375 | Guess Number Higher or Lower II | __| __ |  |
+| Leetcode 256 | Paint House                     | __| __ |  |
+| Leetcode 265 | Paint House II                  | __| __ |  |
+| Leetcode 64  | Minimum Path Sum                | __| __ |  |
+| Leetcode 72  | Edit Distance                   | __| __ |  |
+| Leetcode 174 | Dungeon Game                    | __| __ |  |
+| Leetcode 221 | Maximal Square                  | __| __ |  |
+| Leetcode 85  | Maximal Rectangle               | __| __ |  |
+| Leetcode 312 | Burst Balloons                  | __| __ |  |
+| Leetcode 198 | House Robber                    | __| __ |  |
+| Leetcode 213 | House Robber II                 | __| __ |  |
+| Leetcode 276 | Paint Fence                     | __| __ |  |
+| Leetcode 91  | Decode Ways                     | __| __ |  |
+| Leetcode 10  | Regular Expression Matching     | __| __ |  |
+| Leetcode 44  | Wildcard Matching               | __| __ |  |
