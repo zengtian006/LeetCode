@@ -192,7 +192,8 @@
 |  #  | Title | Time | Space | Remark |
 | ---- | ----- | ---- | ----- | -------- |
 | Leetcode 70  | Climbing Stairs                 | __| __ |  |
-| Leetcode 62  | Unique Paths                    | __| __ |  |
+| Leetcode 62  | Unique Paths                    | __| __ | Same as 64 |
+| Leetcode 64  | Minimum Path Sum                | __| __ |  |
 | Leetcode 279 | Perfect Squares                 | __| __ | Same as 322,377 |
 | Leetcode 322 | Coin Change                     | __| __ |  |
 | Leetcode 377 | Combination Sum IV              | __| __ |  |
@@ -200,7 +201,6 @@
 | Leetcode 375 | Guess Number Higher or Lower II | __| __ |  |
 | Leetcode 256 | Paint House                     | __| __ |  |
 | Leetcode 265 | Paint House II                  | __| __ |  |
-| Leetcode 64  | Minimum Path Sum                | __| __ |  |
 | Leetcode 72  | Edit Distance                   | __| __ |  |
 | Leetcode 174 | Dungeon Game                    | __| __ |  |
 | Leetcode 221 | Maximal Square                  | __| __ |  |
