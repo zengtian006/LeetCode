@@ -212,3 +212,19 @@
 | Leetcode 91  | Decode Ways                     | __| __ |  |
 | Leetcode 10  | Regular Expression Matching     | __| __ |  |
 | Leetcode 44  | Wildcard Matching               | __| __ |  |
+
+## Binary Search
+|  #  | Title | Time | Space | Remark |
+| ---- | ----- | ---- | ----- | -------- |
+| Leetcode 278 | First Bad Version                                       | __| __ |  |
+| Leetcode 35  | Search Insert Position                                  | __| __ |  |
+| Leetcode 33  | Search in Rotated Sorted Array                          | __| __ |  |
+| Leetcode 81  | Search in Rotated Sorted Array II                       | __| __ |  |
+| Leetcode 153 | Find Minimum in Rotated Sorted Array                    | __| __ |  |
+| Leetcode 154 | Find Minimum in Rotated Sorted Array II                 | __| __ |  |
+| Leetcode 162 | Find Peak Element                                       | __| __ |  |
+| Leetcode 374 | Guess Number Higher or Lower                            | __| __ |  |
+| Leetcode 34  | Find First and Last Position of Element in Sorted Array | __| __ |  |
+| Leetcode 350 | Intersection of Two Arrays II                           | __| __ | Two Pointer/HashMap/BS |
+| Leetcode 300 | Longest Increasing Subsequence                          | __| __ | BS/DP |
+| Leetcode 354 | Russian Doll Envelopes                                  | __| __ | BS/DP |
