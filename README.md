@@ -230,3 +230,22 @@
 | Leetcode 350 | Intersection of Two Arrays II                           | __| __ | Two Pointer/HashMap/BS |
 | Leetcode 300 | Longest Increasing Subsequence                          | __| __ | BS/DP |
 | Leetcode 354 | Russian Doll Envelopes                                  | __| __ | BS/DP |
+
+
+## Stack # Queue(or Heap)
+|  #  | Title | Time | Space | Remark |
+| ---- | ----- | ---- | ----- | -------- |
+| Leetcode 155           | Min Stack                        |__| __ |  |
+| Leetcode 232           | Implement Queue using Stacks     |__| __ |  |
+| Leetcode 225           | Implement Stack using Queues     |__| __ | 2 queues |
+| Leetcode 150           | Evaluate Reverse Polish Notation |__| __ |  |
+| Leetcode 71            | Simplify Path                    |__| __ |  |
+| Leetcode 394           | Decode String                    |__| __ | 2 stacks |
+| Leetcode 224           | Basic Calculator                 |__| __ | 2 stacks |
+| Leetcode 227           | Basic Calculator II              |__| __ |  |
+| Leetcode 385           | Mini Parser                      |__| __ |  |
+| Leetcode 84            | Largest Rectangle in Histogram   |__| __ |  |
+| Leetcode 215           | Kth Largest Element in an Array  |__| __ |  |
+| Leetcode 347           | Top K Frequent Elements          |__| __ |  |
+| Leetcode 218           | The Skyline Problem              |__| __ |  |
+| Leetcode 341           | Flatten Nested List Iterator     |__| __ |  |
