@@ -1,5 +1,9 @@
+<!---Logo--->
+<h1 align="center">
+      <br><img src="http://yuzhoujr.com/legacy/image/logo.jpg" alt="leetcode" >
+</h1>
 <!---svg--->
-<p align="right">
+<p align="center">
   <img src="https://img.shields.io/badge/language-Python-yellow.svg?style=flat-square">
 </p>
 
