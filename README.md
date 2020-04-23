@@ -1,6 +1,6 @@
 <!---Logo--->
 <h1 align="center">
-      <br><img src="http://yuzhoujr.com/legacy/image/logo.jpg" alt="leetcode" >
+      <br><img src="./leetcode.png" alt="leetcode" width="300" >
 </h1>
 <!---svg--->
 <p align="center">
