@@ -261,3 +261,10 @@
 | Leetcode 207 | Course Schedule    |__| __ |  |
 | Leetcode 210 | Course Schedule II |__| __ |  |
 | Leetcode 269 | Alien Dictionary   |__| __ |  |
+
+
+## Bit Manipulation
+|  #  | Title | Time | Space | Remark |
+| ---- | ----- | ---- | ----- | -------- |
+| Leetcode 136 | Single Number                   | __| __ |  |
+| Leetcode 318 | Maximum Product of Word Lengths | __| __ |  |
