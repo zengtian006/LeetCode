@@ -253,3 +253,11 @@
 | Leetcode 347           | Top K Frequent Elements          |__| __ |  |
 | Leetcode 218           | The Skyline Problem              |__| __ |  |
 | Leetcode 341           | Flatten Nested List Iterator     |__| __ |  |
+
+
+## Toplogical Sort
+|  #  | Title | Time | Space | Remark |
+| ---- | ----- | ---- | ----- | -------- |
+| Leetcode 207 | Course Schedule    |__| __ |  |
+| Leetcode 210 | Course Schedule II |__| __ |  |
+| Leetcode 269 | Alien Dictionary   |__| __ |  |
