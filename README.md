@@ -277,3 +277,11 @@
 | Leetcode 382 | Linked List Random Node                           | __| __ |  |
 | Leetcode 380 | Insert Delete GetRandom O(1)                      | __| __ |  |
 | Leetcode 381 | Insert Delete GetRandom O(1) - Duplicates allowed | __| __ |  |
+
+
+## Trie
+|  #  | Title | Time | Space | Remark |
+| ---- | ----- | ---- | ----- | -------- |
+| 208 | Implement Trie (Prefix Tree)                | __| __ |  |
+| 211 | Add and Search Word - Data structure design | __| __ | DFS with Trie |
+| 212 | Word Search II                              | __| __ | BackTrakcing with Trie |
