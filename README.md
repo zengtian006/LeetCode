@@ -268,3 +268,12 @@
 | ---- | ----- | ---- | ----- | -------- |
 | Leetcode 136 | Single Number                   | __| __ |  |
 | Leetcode 318 | Maximum Product of Word Lengths | __| __ |  |
+
+## Random
+|  #  | Title | Time | Space | Remark |
+| ---- | ----- | ---- | ----- | -------- |
+| Leetcode 384 | Shuffle an Array                                  | __| __ |  |
+| Leetcode 398 | Random Pick Index                                 | __| __ |  |
+| Leetcode 382 | Linked List Random Node                           | __| __ |  |
+| Leetcode 380 | Insert Delete GetRandom O(1)                      | __| __ |  |
+| Leetcode 381 | Insert Delete GetRandom O(1) - Duplicates allowed | __| __ |  |
