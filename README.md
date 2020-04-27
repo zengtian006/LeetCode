@@ -314,6 +314,13 @@
 | Leetcode 399 | Evaluate Division             | __| __ | DFS |
 | Leetcode 310 | Minimum Height Trees          | __| __ | Topological Sort |
 
+## Union Find
+|  #  | Title | Time | Space | Remark |
+| ---- | ----- | ---- | ----- | -------- |
+| Leetcode 261 | Graph Valid Tree                                      |__| __ | UF/DFS |
+| Leetcode 323 | Number of Connected Components in an Undirected Graph |__| __ | UF/DFS |
+| Leetcode 305 | Number of Islands II                                  |__| __ |  |
+
 
 ## Trie
 |  #  | Title | Time | Space | Remark |
