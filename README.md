@@ -283,7 +283,6 @@
 | 147 | Insertion Sort List                   |__| __ | Insertion sort |
 
 
-
 ## Toplogical Sort
 |  #  | Title | Time | Space | Remark |
 | ---- | ----- | ---- | ----- | -------- |
@@ -306,6 +305,14 @@
 | Leetcode 382 | Linked List Random Node                           | __| __ |  |
 | Leetcode 380 | Insert Delete GetRandom O(1)                      | __| __ |  |
 | Leetcode 381 | Insert Delete GetRandom O(1) - Duplicates allowed | __| __ |  |
+
+## Graph
+|  #  | Title | Time | Space | Remark |
+| ---- | ----- | ---- | ----- | -------- |
+| Leetcode 133 | Clone Graph                   | __| __ |  |
+| Leetcode 138 | Copy List with Random Pointer | __| __ |  |
+| Leetcode 399 | Evaluate Division             | __| __ | DFS |
+| Leetcode 310 | Minimum Height Trees          | __| __ | Topological Sort |
 
 
 ## Trie
