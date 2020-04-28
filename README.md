@@ -258,29 +258,29 @@
 ## LinkedList
 |  #  | Title | Time | Space | Remark |
 | ---- | ----- | ---- | ----- | -------- |
-| 206 | Reverse Linked List                   |__| __ |  |
-| 141 | Linked List Cycle                     |__| __ |  |
-| 24  | Swap Nodes in Pairs                   |__| __ |  |
-| 328 | Odd Even Linked List                  |__| __ |  |
-| 92  | Reverse Linked List II                |__| __ |  |
-| 237 | Delete Node in a Linked List          |__| __ |  |
-| 19  | Remove Nth Node From End of List      |__| __ |  |
-| 83  | Remove Duplicates from Sorted List    |__| __ |  |
-| 203 | Remove Linked List Elements           |__| __ |  |
-| 82  | Remove Duplicates from Sorted List II |__| __ |  |
-| 369 | Plus One Linked List                  |__| __ |  |
-| 2   | Add Two Numbers                       |__| __ |  |
-| 160 | Intersection of Two Linked Lists      |__| __ |  |
-| 21  | Merge Two Sorted Lists                |__| __ |  |
-| 234 | Palindrome Linked List                |__| __ |  |
-| 143 | Reorder List                          |__| __ |  |
-| 142 | Linked List Cycle II                  |__| __ |  |
-| 148 | Sort List                             |__| __ | Merge sort(Divide&Conquer) |
-| 25  | Reverse Nodes in k-Group              |__| __ | Recursive |
-| 61  | Rotate List                           |__| __ |  |
-| 86  | Partition List                        |__| __ | Two Pointer |
-| 23  | Merge k Sorted Lists                  |__| __ | Merge sort|
-| 147 | Insertion Sort List                   |__| __ | Insertion sort |
+| Leetcode 206 | Reverse Linked List                   |__| __ |  |
+| Leetcode 141 | Linked List Cycle                     |__| __ |  |
+| Leetcode 24  | Swap Nodes in Pairs                   |__| __ |  |
+| Leetcode 328 | Odd Even Linked List                  |__| __ |  |
+| Leetcode 92  | Reverse Linked List II                |__| __ |  |
+| Leetcode 237 | Delete Node in a Linked List          |__| __ |  |
+| Leetcode 19  | Remove Nth Node From End of List      |__| __ |  |
+| Leetcode 83  | Remove Duplicates from Sorted List    |__| __ |  |
+| Leetcode 203 | Remove Linked List Elements           |__| __ |  |
+| Leetcode 82  | Remove Duplicates from Sorted List II |__| __ |  |
+| Leetcode 369 | Plus One Linked List                  |__| __ |  |
+| Leetcode 2   | Add Two Numbers                       |__| __ |  |
+| Leetcode 160 | Intersection of Two Linked Lists      |__| __ |  |
+| Leetcode 21  | Merge Two Sorted Lists                |__| __ |  |
+| Leetcode 234 | Palindrome Linked List                |__| __ |  |
+| Leetcode 143 | Reorder List                          |__| __ |  |
+| Leetcode 142 | Linked List Cycle II                  |__| __ |  |
+| Leetcode 148 | Sort List                             |__| __ | Merge sort(Divide&Conquer) |
+| Leetcode 25  | Reverse Nodes in k-Group              |__| __ | Recursive |
+| Leetcode 61  | Rotate List                           |__| __ |  |
+| Leetcode 86  | Partition List                        |__| __ | Two Pointer |
+| Leetcode 23  | Merge k Sorted Lists                  |__| __ | Merge sort|
+| Leetcode 147 | Insertion Sort List                   |__| __ | Insertion sort |
 
 
 ## Toplogical Sort
@@ -325,6 +325,14 @@
 ## Trie
 |  #  | Title | Time | Space | Remark |
 | ---- | ----- | ---- | ----- | -------- |
-| 208 | Implement Trie (Prefix Tree)                | __| __ |  |
-| 211 | Add and Search Word - Data structure design | __| __ | DFS with Trie |
-| 212 | Word Search II                              | __| __ | BackTrakcing with Trie |
+| Leetcode 208 | Implement Trie (Prefix Tree)                | __| __ |  |
+| Leetcode 211 | Add and Search Word - Data structure design | __| __ | DFS with Trie |
+| Leetcode 212 | Word Search II                              | __| __ | BackTrakcing with Trie |
+
+
+## Design
+|  #  | Title | Time | Space | Remark |
+| ---- | ----- | ---- | ----- | -------- |
+| Leetcode 359 | Logger Rate Limiter             |__| __ | Buffer |
+| Leetcode 362 | Design Hit Counter              |__| __ | Buffer |
+| Leetcode 346 | Moving Average from Data Stream |__| __ |  |
