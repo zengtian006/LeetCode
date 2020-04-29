@@ -102,6 +102,7 @@
 | Leetcode 678| Remove Invalid Parentheses | __| __ | BFS |
 | Leetcode 115| Valid Parenthesis String | __| __ | BackTracking |
 | Leetcode 844| Backspace String Compare	 | __| __ | Two Pointer |
+| Leetcode 616| Add Bold Tag in String	 | __| __ | |
 
 
 ## Math  
@@ -336,3 +337,14 @@
 | Leetcode 359 | Logger Rate Limiter             |__| __ | Buffer |
 | Leetcode 362 | Design Hit Counter              |__| __ | Buffer |
 | Leetcode 346 | Moving Average from Data Stream |__| __ |  |
+| Leetcode 281 | Zigzag Iterator                     |__| __ |  |
+| Leetcode 284 | Peeking Iterator                    |__| __ |  |
+| Leetcode 251 | Flatten 2D Vector                   |__| __ |  |
+| Leetcode 146 | LRU Cache                           |__| __ | Doubly liked list |
+| Leetcode 303 | Range Sum Query - Immutable         |__| __ | PreSum |
+
+
+## Non-Leetcode
+|  #  | Title | Time | Space | Remark |
+| ---- | ----- | ---- | ----- | -------- |
+|  | First Unique Number            |__| __ | Doubly liked list  |
