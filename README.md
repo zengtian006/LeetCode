@@ -342,6 +342,11 @@
 | Leetcode 251 | Flatten 2D Vector                   |__| __ |  |
 | Leetcode 146 | LRU Cache                           |__| __ | Doubly liked list |
 | Leetcode 303 | Range Sum Query - Immutable         |__| __ | PreSum |
+| Leetcode 170 | Two Sum III - Data structure design |__| __ |  |
+| Leetcode 348 | Design Tic-Tac-Toe                  |__| __ |  |
+| Leetcode 353 | Design Snake Game                   |__| __ |  |
+| Leetcode 355 | Design Twitter                      |__| __ | OOD |
+| Leetcode 706 | Design HashMap                      |__| __ |  |
 
 
 ## Non-Leetcode
