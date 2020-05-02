@@ -160,6 +160,8 @@
 | Leetcode 889  | Construct Binary Tree from Preorder and Postorder Traversal| __| __ |  |
 | Leetcode 1008   | Construct Binary Search Tree from Preorder Traversal| __| __ |  |
 | Leetcode 545  | Boundary of Binary Tree | __| __ |  |
+
+
 ## DFS & BFS
 |  #  | Title | Time | Space | Remark |
 | ---- | ----- | ---- | ----- | -------- |
@@ -254,6 +256,14 @@
 | Leetcode 347           | Top K Frequent Elements          |__| __ |  |
 | Leetcode 218           | The Skyline Problem              |__| __ |  |
 | Leetcode 341           | Flatten Nested List Iterator     |__| __ |  |
+
+
+## Matrix
+|  #  | Title | Time | Space | Remark |
+| ---- | ----- | ---- | ----- | -------- |
+| Leetcode 48 | Rotate Image     |__| __ |  |
+| Leetcode 54 | Spiral Matrix    |__| __ |  |
+| Leetcode 59 | Spiral Matrix II |__| __ |  |
 
 
 ## LinkedList
