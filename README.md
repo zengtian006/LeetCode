@@ -264,6 +264,7 @@
 | Leetcode 48 | Rotate Image     |__| __ |  |
 | Leetcode 54 | Spiral Matrix    |__| __ |  |
 | Leetcode 59 | Spiral Matrix II |__| __ |  |
+| Leetcode 1439 | Find the Kth Smallest Sum of a Matrix With Sorted Rows |__| __ | Divide&Conquer|
 
 
 ## LinkedList
