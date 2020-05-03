@@ -265,6 +265,15 @@
 | Leetcode 54 | Spiral Matrix    |__| __ |  |
 | Leetcode 59 | Spiral Matrix II |__| __ |  |
 | Leetcode 1439 | Find the Kth Smallest Sum of a Matrix With Sorted Rows |__| __ | Divide&Conquer|
+| Leetcode 1311  | Sparse Matrix Multiplication                           |__| __ |  |
+| Leetcode 1378  | Kth Smallest Element in a Sorted Matrix                |__| __ |  |
+| Leetcode 174   | Search a 2D Matrix                                     |__| __ |  |
+| Leetcode 1240  | Search a 2D Matrix II                                  |__| __ |  |
+| Leetcode 179   | Word Search                                            |__| __ |  |
+| Leetcode 1361  | Bomb Enemy                                             |__| __ |  |
+| Leetcode 136   | Valid Sudoku                                           |__| __ |  |
+| Leetcode 137   | Sudoku Solver                                          |__| __ | BackTracking |
+| Leetcode 1373  | Find K Pairs with Smallest Sums                        |__| __ |  |
 
 
 ## LinkedList
