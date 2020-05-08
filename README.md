@@ -166,37 +166,62 @@
 ## DFS & BFS
 |  #  | Title | Time | Space | Remark |
 | ---- | ----- | ---- | ----- | -------- |
-| Leetcode 200 | Number of Islands         | __| __ | BFS/DFS/Recursive |
-| Leetcode 286 | Walls and Gates           | __| __ | BFS/DFS |
-| Leetcode 130 | Surrounded Regions        | __| __ | DFS |
-| Leetcode 339 | Nested List Weight Sum    | __| __ | BFS |
-| Leetcode 364 | Nested List Weight Sum II | __| __ | BFS |
-| Leetcode 127 | Word Ladder               | __| __ | BFS |
-| Leetcode 126 | Word Ladder II            | __| __ | BFS |
+| Leetcode 200 | Number of Islands         | _O(mn)_| _O(min(m,n))~O(mn)_ | BFS/DFS/Recursive |
+| Leetcode 286 | Walls and Gates           | _O(mn)_| _O(mn)_ | BFS/DFS |
+| Leetcode 130 | Surrounded Regions        | _O(mn)_| _O(mn)_ | DFS |
+| Leetcode 339 | Nested List Weight Sum    | _O(n)_| _O(n)_ | BFS |
+| Leetcode 364 | Nested List Weight Sum II | _O(n)_| _O(n)_ | BFS |
+| Leetcode 127 | Word Ladder               | _O(n*26^len)_| _O(n)_ | BFS |
+| Leetcode 126 | Word Ladder II            | _O(n*26^len)_| _O(n+p*l)_ | BFS |
+| Leetcode 695 | Max Area of Island        | _O(mn)_| _O(mn)_ | BFS |
+| Leetcode 490 | The Maze        | _O(mn)_| _O(mn)_ | BFS |
+| Leetcode 505 | The Maze II       | _O(mn*log(mn))_| _O(mn)_ | Heap |
+| Leetcode 675 | Cut Off Trees for Golf Event       | _O(mn*log(mn))_| _O(mn)_ |  |
 
 
 ## Backtracking
 |  #  | Title | Time | Space | Remark |
 | ---- | ----- | ---- | ----- | -------- |
-| Leetcode 78  | Subsets                               | __| __ |  |
-| Leetcode 90  | Subsets II                            | __| __ |  |
-| Leetcode 77  | Combinations                          | __| __ |  |
-| Leetcode 39  | Combination Sum                       | __| __ |  |
-| Leetcode 40  | Combination Sum II                    | __| __ |  |
-| Leetcode 216 | Combination Sum III                   | __| __ |  |
-| Leetcode 254 | Factor Combinations                   | __| __ |  |
-| Leetcode 46  | Permutations                          | __| __ |  |
-| Leetcode 47  | Permutations II                       | __| __ |  |
-| Leetcode 31  | Next Permutation                      | __| __ |  |
-| Leetcode 60  | Permutation Sequence                  | __| __ |  |
-| Leetcode 291 | Word Pattern II                       | __| __ |  |
-| Leetcode 17  | Letter Combinations of a Phone Number | __| __ |  |
-| Leetcode 282 | Expression Add Operators              | __| __ |  |
-| Leetcode 140 | Word Break II                         | __| __ |  |
-| Leetcode 351 | Android Unlock Patterns               | __| __ |  |
-| Leetcode 51  | N-Queens                              | __| __ |  |
-| Leetcode 52  | N-Queens II                           | __| __ |  |
+| Leetcode 78  | Subsets                               | _O(n*2^n)_| _O(n)_ |  |
+| Leetcode 90  | Subsets II                            | _O(n*2^n)_| _O(n)_ |  |
+| Leetcode 77  | Combinations                          | _O(k*Cnk)_| _O(k)?_ |  |
+| Leetcode 39  | Combination Sum                       | _？_| _O(n)?_ |  |
+| Leetcode 40  | Combination Sum II                    | _？_| _O(n)?_ |  |
+| Leetcode 216 | Combination Sum III                   | _?_| _O(n)?_ |  |
+| Leetcode 254 | Factor Combinations                   | _O(2^n)?_| _O(n)?_ |  |
+| Leetcode 46  | Permutations                          | _O(n!)_| _O(n)_ |  |
+| Leetcode 47  | Permutations II                       | _O(n!)?_| _?_ |  |
+| Leetcode 31  | Next Permutation                      | _O(n)_| _O(1)_ |  |
+| Leetcode 60  | Permutation Sequence                  | _O(n!)_| _O(n)_ |  |
+| Leetcode 291 | Word Pattern II                       | _O(n*(Cnm)_| _On)_ |  |
+| Leetcode 17  | Letter Combinations of a Phone Number | _O(3^n*4^m_| _O(n)_ |  |
+| Leetcode 282 | Expression Add Operators              | _O(n*4^n)_| _O(n)_ |  |
+| Leetcode 140 | Word Break II                         | _O(2^n)_| _O(n)_ |  |
+| Leetcode 351 | Android Unlock Patterns               | _O(n!)_| _O(n)_ |  |
+| Leetcode 51  | N-Queens                              | _O(n!)_| _O(n)_ |  |
+| Leetcode 52  | N-Queens II                           | _O(n!)_| _O(n)_ |  |
 
+
+Backtracking 的时间复杂度
+```python
+  # 在backtracking函数中，for 循环里有几种选择就是几的n次方, 最少的2^n 例如 下面这种情况是O(3^n)
+  def bt(self,idx,n):
+    for i in range(idx, n):
+      self.bt()
+      self.bt()
+      self.bt()
+  # 在bt函数中，如果每次for循环都是T-1，那么时间复杂度 是 O(2^n)
+  def bt(self,idx,n):
+    for i in range(idx, n):
+      self.bt(i+1, n)
+  # 在bt函数中，如果每次for循环都是重新遍历(不重复上一步），那么时间复杂度 是 O(n！)
+  def bt(self,idx,n, visited):
+    for i in range(n):
+      if i not in visited:
+        visited.add(i)
+        self.bt(i+1, n, visited)
+        visited.remove(i)
+```
 
 ## Dynamic Programming
 |  #  | Title | Time | Space | Remark |
@@ -350,6 +375,8 @@
 | Leetcode 208 | Implement Trie (Prefix Tree)                | __| __ |  |
 | Leetcode 211 | Add and Search Word - Data structure design | __| __ | DFS with Trie |
 | Leetcode 212 | Word Search II                              | __| __ | BackTrakcing with Trie |
+| Leetcode 642 | Design Search Autocomplete System | __ | __ |  |
+| Leetcode 588 | Design In-Memory File System | __ | __ |  |
 
 
 ## Design
