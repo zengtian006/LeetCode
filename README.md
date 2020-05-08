@@ -377,6 +377,8 @@ Backtracking 的时间复杂度
 | Leetcode 212 | Word Search II                              | __| __ | BackTrakcing with Trie |
 | Leetcode 642 | Design Search Autocomplete System | __ | __ |  |
 | Leetcode 588 | Design In-Memory File System | __ | __ |  |
+| Leetcode 635 | Design Log Storage System | __ | __ |  |
+
 
 
 ## Design
