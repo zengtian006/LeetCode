@@ -67,43 +67,44 @@
 ## String
 |  #  | Title  | Time | Space | Remark |
 | ----- | -----  | ---- | ----- | -------- |
-| Leetcode 28| Implement strStr()| __| __ |  |
-| Leetcode 186| Reverse Words in a String II | __| __ |  |
-| Leetcode 205| Isomorphic Strings | __| __ | HashMap |
-| Leetcode 293| Flip Game | __| __ |  |
-| Leetcode 294| Flip Game II | __| __ | BackTracking |
-| Leetcode 290| Word Pattern | __| __ | HashMap |
-| Leetcode 242| Valid Anagram | __| __ |  |
-| Leetcode 49| Group Anagrams | __| __ |  |
-| Leetcode 249| Group Shifted Strings | __| __ |  |
-| Leetcode 161| One Edit Distance | __| __ |  |
-| Leetcode 38| Count and Say | __| __ |  |
-| Leetcode 316| Remove Duplicate Letters | __| __ |  |
-| Leetcode 271| Encode and Decode Strings | __| __ |  |
-| Leetcode 168| Excel Sheet Column Title | __| __ |  |
-| Leetcode 171| Excel Sheet Column Number | __| __ |  |
-| Leetcode 13| Roman to Integer | __| __ |  |
-| Leetcode 12| Integer to Roman | __| __ |  |
-| Leetcode 273| Integer to English Words | __| __ |  |
-| Leetcode 157| Read N Characters Given Read4 | __| __ |  |
-| Leetcode 158| Read N Characters Given Read4 II - Call multiple times  | __| __ |  |
-| Leetcode 68| Text Justification | __| __ |  |
-| Leetcode 76| Minimum Window Substring | __| __ | Sliding Window |
-| Leetcode 3| Longest Substring Without Repeating Characters | __| __ | Sliding Window |
-| Leetcode 340| Longest Substring with At Most K Distinct Characters | __| __ | Sliding Window |
-| Leetcode 125| Valid Palindrome | __| __ | Two Pointer |
-| Leetcode 5| Longest Palindromic Substring | __| __ | DP |
-| Leetcode 214| Shortest Palindrome | __| __ |  |
-| Leetcode 336| Palindrome Pairs | __| __ |  |
-| Leetcode 20| Valid Parentheses | __| __ |  |
-| Leetcode 22| Generate Parentheses | __| __ | BackTracking |
-| Leetcode 32| Longest Valid Parentheses | __| __ | DP |
-| Leetcode 241| Different Ways to Add Parentheses | __| __ | Divide&Conquer |
-| Leetcode 301| Remove Invalid Parentheses | __| __ | BFS |
-| Leetcode 678| Remove Invalid Parentheses | __| __ | BFS |
-| Leetcode 115| Valid Parenthesis String | __| __ | BackTracking |
-| Leetcode 844| Backspace String Compare	 | __| __ | Two Pointer |
-| Leetcode 616| Add Bold Tag in String	 | __| __ | |
+| Leetcode 28| Implement strStr()| _O((n-l)*l)_| _O(1)_ |  |
+| Leetcode 186| Reverse Words in a String II | _O(n)_| _O(1)_ |  |
+| Leetcode 205| Isomorphic Strings | _O(n)_| _O(n)_ | HashMap |
+| Leetcode 293| Flip Game | _O(n)_| _O(1)_ |  |
+| Leetcode 294| Flip Game II | _O(n!)_| _O(n!)_ | BackTracking |
+| Leetcode 290| Word Pattern | _O(n)_| _O(n)_ | HashMap |
+| Leetcode 242| Valid Anagram | _O(nlogn)_| _O(1)_ |  |
+| Leetcode 49| Group Anagrams | _O(n)_| _O(n)_ |  |
+| Leetcode 249| Group Shifted Strings | _O(n)_| _O(n)_ |  |
+| Leetcode 161| One Edit Distance | _O(n)_| _O(1)_ |  |
+| Leetcode 38| Count and Say | _O(2^n)_| _O(1)_ |  |
+| Leetcode 316| Remove Duplicate Letters | _O(n)_| _O(1)_ |  |
+| Leetcode 271| Encode and Decode Strings | _O(n)_| _O(1)_ |  |
+| Leetcode 168| Excel Sheet Column Title | _O(n)_| _O(1)_ |  |
+| Leetcode 171| Excel Sheet Column Number | _O(n)_| _O(1)_ |  |
+| Leetcode 13| Roman to Integer | _O(1)_| _O(1)_ |  |
+| Leetcode 12| Integer to Roman | _O(n)_| _O(1)_ |  |
+| Leetcode 273| Integer to English Words | _O(n)_| _O(1)_ |  |
+| Leetcode 157| Read N Characters Given Read4 | _O(n)_| _O(1)_ |  |
+| Leetcode 158| Read N Characters Given Read4 II - Call multiple times  | _O(n)_| _O(n)_ |  |
+| Leetcode 68| Text Justification | _O(n)_| _O(n/kπ)_ |  |
+| Leetcode 76| Minimum Window Substring | _O(n)_| _O(n)_ | Sliding Window |
+| Leetcode 3| Longest Substring Without Repeating Characters | _O(n)_| _O(m)_ | Sliding Window |
+| Leetcode 340| Longest Substring with At Most K Distinct Characters | _O(n)_| _O(k)_ | Sliding Window |
+| Leetcode 125| Valid Palindrome | _O(n)_| _O(1)_ | Two Pointer |
+| Leetcode 5| Longest Palindromic Substring | _O(n^2)_| _O(n^2)_ | DP |
+| Leetcode 214| Shortest Palindrome | _O(n)_| _O(n)_ |  |
+| Leetcode 336| Palindrome Pairs | _O(nk^2)_| _O(n)_ |  |
+| Leetcode 20| Valid Parentheses | _O(n)_| _O(n)_ |  |
+| Leetcode 22| Generate Parentheses | _O(4^n)?_| _O(n)?_ | BackTracking |
+| Leetcode 32| Longest Valid Parentheses | _O(n)_| _O(n)_ | DP |
+| Leetcode 241| Different Ways to Add Parentheses | _?_| _?_ | Divide&Conquer |
+| Leetcode 301| Remove Invalid Parentheses | _O(n*2^n)_| _O(2^n)_ | BFS |
+| Leetcode 678| Valid Parenthesis String | _O(3^n)_| _O(n)_ | BFS |
+| Leetcode 115| Distinct Subsequences | _O(mn)_| _O(mn)_ | BackTracking |
+| Leetcode 844| Backspace String Compare	 | _O(m+n)_| _O(1)_ | Two Pointer |
+| Leetcode 763| Partition Labels | _O(n)_| _O(n)_ | |
+| Leetcode 616| Add Bold Tag in String	 | _?_| _O(n)_ | |
 
 
 ## Math  
@@ -282,7 +283,9 @@ Backtracking 的时间复杂度
 | Leetcode 347           | Top K Frequent Elements          |__| __ |  |
 | Leetcode 218           | The Skyline Problem              |__| __ |  |
 | Leetcode 341           | Flatten Nested List Iterator     |__| __ |  |
-
+| Leetcode 373           | Find K Pairs with Smallest Sums     |__| __ |  |
+| Leetcode 378           | Kth Smallest Element in a Sorted Matrix    |__| __ |  |
+| Leetcode 1373          | Find K Pairs with Smallest Sums        |__| __ |  |
 
 ## Matrix
 |  #  | Title | Time | Space | Remark |
@@ -299,7 +302,6 @@ Backtracking 的时间复杂度
 | Leetcode 1361  | Bomb Enemy                                             |__| __ |  |
 | Leetcode 136   | Valid Sudoku                                           |__| __ |  |
 | Leetcode 137   | Sudoku Solver                                          |__| __ | BackTracking |
-| Leetcode 1373  | Find K Pairs with Smallest Sums                        |__| __ |  |
 
 
 ## LinkedList

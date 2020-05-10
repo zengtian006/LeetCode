@@ -1,18 +1,24 @@
 class Solution:
-    writePos = readPos = 0
-    buf4 = [' ']*4
-    def read(self, buf, n):
-        """
-        :type buf: Destination buffer (List[str])
-        :type n: Number of characters to read (int)
-        :rtype: The number of actual characters read (int)
-        """
-        for i in range(n):
-            if self.writePos == self.readPos:
-                self.writePos = read4(self.buf4)
-                self.readPos =0
-                if self.writePos == 0:
-                    return i
-            buf[i] = self.buf4[self.readPos]
-            self.readPos += 1
-        return n
+    
+    def __init__(self):
+        self.q = collections.deque()
+        
+    def read(self, buf: List[str], n: int) -> int:
+        idx = 0
+        while len(self.q) and n>0:
+            buf[idx] = self.q.popleft()
+            n -= 1
+            idx += 1
+        
+        while n > 0:
+            buf4 = [None]*4
+            k = read4(buf4)
+            if not k:
+                return idx
+            if k>n:
+                self.q.extend(buf4[n:k])
+            for i in range(min(k,n)):
+                buf[idx] = buf4[i]
+                idx+=1
+                n-=1
+        return idx

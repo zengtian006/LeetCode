@@ -6,7 +6,6 @@ class Solution:
             f = ord(strr[0])
             for c in strr:
                 s += str((ord(c) - f)%26)+" "
-            print(s)
             dic[s].append(strr)
         res = []
         for v in dic.values():
