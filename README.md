@@ -28,6 +28,7 @@
 | Leetcode 220 | Contains Duplicate III| _O(n^2_| _O(1)_ |  |
 | Leetcode 55  | Jump Game| _O(n)_| _O(1)_ | Greedy |
 | Leetcode 45  | Jump Game II| _O(n)_| _O(1)_ | Greedy |
+| Leetcode 403 | Frog Jump | _O(n)_| _O(n)_ | DFS |
 | Leetcode 121 | Best Time to Buy and Sell Stock| _O(n)_| _O(1)_ |  |
 | Leetcode 122 | Best Time to Buy and Sell Stock II| _O(n)_| _O(1)_ |  |
 | Leetcode 123 | Best Time to Buy and Sell Stock III| _O(n)_| _O(n)_ |  |
@@ -132,37 +133,43 @@
 ## Tree
 |  #  | Title | Time | Space | Remark |
 | ---- | ----- | ---- | ----- | -------- |
-| Leetcode 100  | Same Tree                                      | __| __ |  |
-| Leetcode 101  | Symmetric Tree                                 | __| __ |  |
-| Leetcode 226  | Invert Binary Tree                             | __| __ |  |
-| Leetcode 257  | Binary Tree Paths                              | __| __ |  |
-| Leetcode 112  | Path Sum                                       | __| __ |  |
-| Leetcode 113  | Path Sum II                                    | __| __ |  |
-| Leetcode 298  | Binary Tree Longest Consecutive Sequence       | __| __ |  |
-| Leetcode 111  | Minimum Depth of Binary Tree                   | __| __ |  |
-| Leetcode 104  | Maximum Depth of Binary Tree                   | __| __ |  |
-| Leetcode 110  | Balanced Binary Tree                           | __| __ |  |
-| Leetcode 124  | Binary Tree Maximum Path Sum                   | __| __ |  |
-| Leetcode 337  | House Robber III                               | __| __ |  |
-| Leetcode 98   | Validate Binary Search Tree                    | __| __ |  |
-| Leetcode 235  | Lowest Common Ancestor of a Binary Search Tree | __| __ | BST |
-| Leetcode 236  | Lowest Common Ancestor of a Binary Tree        | __| __ |  |
-| Leetcode 108  | Convert Sorted Array to Binary Search Tree     | __| __ | BST |
-| Leetcode 173  | Binary Search Tree Iterator                    | __| __ | BST |
-| Leetcode 230  | Kth Smallest Element in a BST                  | __| __ | BST |
-| Leetcode 297  | Serialize and Deserialize Binary Tree          | __| __ |  |
-| Leetcode 285  | Inorder Successor in BST                       | __| __ | BST |
-| Leetcode 270  | Closest Binary Search Tree Value               | __| __ | BST |
-| Leetcode 116  | Populating Next Right Pointers in Each Node    | __| __ |  |
-| Leetcode 117  | Populating Next Right Pointers in Each Node II | __| __ |  |
-| Leetcode 314  | Binary Tree Vertical Order Traversal           | __| __ |  |
-| Leetcode 96   | Unique Binary Search Trees                     | __| __ | DP |
-| Leetcode 105  | Construct Binary Tree from Preorder and Inorder Traversal    | __| __ |  |
-| Leetcode 106  | Construct Binary Tree from Inorder and Postorder Traversal | __| __ |  |
-| Leetcode 889  | Construct Binary Tree from Preorder and Postorder Traversal| __| __ |  |
-| Leetcode 1008   | Construct Binary Search Tree from Preorder Traversal| __| __ |  |
-| Leetcode 545  | Boundary of Binary Tree | __| __ |  |
-
+| Leetcode 100  | Same Tree                                      | _O(n)_| _O(logn)~O(n)_ |  |
+| Leetcode 101  | Symmetric Tree                                 | _O(n)_| _O(n)_ |  |
+| Leetcode 226  | Invert Binary Tree                             | _O(n)_| _O(n)_ |  |
+| Leetcode 257  | Binary Tree Paths                              | _O(n)_| _O(n)_ |  |
+| Leetcode 112  | Path Sum                                       | _O(n)_| _O(n)_ |  |
+| Leetcode 113  | Path Sum II                                    | _O(n)_| _O(n)_ |  |
+| Leetcode 298  | Binary Tree Longest Consecutive Sequence       | _O(n)_| _O(n)_ |  |
+| Leetcode 111  | Minimum Depth of Binary Tree                   | _O(n^2)_| _O(n)_ |  |
+| Leetcode 104  | Maximum Depth of Binary Tree                   | _O(n)_| _O(n)_ |  |
+| Leetcode 110  | Balanced Binary Tree                           | _O(nlogn)_| _O(n)_ |  |
+| Leetcode 124  | Binary Tree Maximum Path Sum                   | _O(n)_| _O(logn)_ | 543 |
+| Leetcode 337  | House Robber III                               | _O(n)_| _O(n)_ |  |
+| Leetcode 98   | Validate Binary Search Tree                    | _O(n)_| _O(n)_ |  |
+| Leetcode 235  | Lowest Common Ancestor of a Binary Search Tree | _O(n)_| _O(n)_ | BST |
+| Leetcode 236  | Lowest Common Ancestor of a Binary Tree        | _O(n)_| _O(n)_ |  |
+| Leetcode 108  | Convert Sorted Array to Binary Search Tree     | _O(n)_| _O(n)_ | BST |
+| Leetcode 173  | Binary Search Tree Iterator                    | _O(n)_| _O(n)_ | BST |
+| Leetcode 230  | Kth Smallest Element in a BST                  | _O(n)_| _O(n)_ | BST |
+| Leetcode 297  | Serialize and Deserialize Binary Tree          | _O(n)_| _O(n)_ |  |
+| Leetcode 285  | Inorder Successor in BST                       | _O(n)_| _O(H)_ | BST |
+| Leetcode 270  | Closest Binary Search Tree Value               | _O(n)_| _O(H)_ | BST |
+| Leetcode 116  | Populating Ne\xt Right Pointers in Each Node    | _O(n)_| _O(logn)_ |  |
+| Leetcode 117  | Populating Next Right Pointers in Each Node II | _O(n)_| _O(n)_ |  |
+| Leetcode 314  | Binary Tree Vertical Order Traversal           | _O(nlogn)_| _O(n)_ |  |
+| Leetcode 96   | Unique Binary Search Trees                     | _O(n^2)_| _O(n)_ | DP |
+| Leetcode 105  | Construct Binary Tree from Preorder and Inorder Traversal    | _O(n)_| _O(n)_ |  |
+| Leetcode 106  | Construct Binary Tree from Inorder and Postorder Traversal | _O(n)_| _O(n)_ |  |
+| Leetcode 889  | Construct Binary Tree from Preorder and Postorder Traversal| _O(n^2)_| _O(n)_ |  |
+| Leetcode 1008 | Construct Binary Search Tree from Preorder Traversal| _O(n)_| _O(n)_ |  |
+| Leetcode 199  | Binary Tree Right Side View                    | _O(n)_| _O(n)_ |  |
+| Leetcode 545  | Boundary of Binary Tree | _O(n)_| _O(n)_ |  |
+| Leetcode 366  | Find Leaves of Binary Tree | _O(n)_| _O(n)_ |  |
+| Leetcode 863  | All Nodes Distance K in Binary Tree  | _O(n)_| _O(n)_ |  |
+| Leetcode 109  | Convert Sorted List to Binary Search Tree | _O(nlogn)_| _O(nlogn)_ |  |
+| Leetcode 103  | Binary Tree Zigzag Level Order Traversal | _O(n)_| _O(n)_ |  |
+| Leetcode 543  | Diameter of Binary Tree | _O(n)_| _O(logn)_ | 124 |
+| Leetcode 428  | Serialize and Deserialize N-ary Tree | _O(n)_| _O(n)_ |  |
 
 ## DFS & BFS
 |  #  | Title | Time | Space | Remark |
@@ -406,3 +413,5 @@ Backtracking 的时间复杂度
 | ---- | ----- | ---- | ----- | -------- |
 |  | First Unique Number            |__| __ | Doubly liked list  |
 |  | Integer to Chinese             |__| __ | |
+|  | Print Nodes in Top View of Binary Tree |__| __ | |
+|  | Bottom View of Binary Tree | __| __ | |

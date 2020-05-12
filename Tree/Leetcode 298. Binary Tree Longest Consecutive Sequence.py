@@ -3,22 +3,21 @@ class Solution:
     def longestConsecutive(self, root: TreeNode) -> int:
         if not root:
             return 0
-        self.res = 0
+        self.res = 1
         self.helper(root, 1)
         return self.res
     
-    def helper(self, node, cur_l):
-        self.res = max(self.res, cur_l)
-        if not node:
-            return 
+    def helper(self, node, v):
         if node.left:
-            if node.val+1 == node.left.val:
-                self.helper(node.left, cur_l+1)
-            else: 
+            if node.left.val == node.val+1:
+                self.res = max(self.res, v+1)
+                self.helper(node.left,v+1)
+            else:
                 self.helper(node.left, 1)
         if node.right:
-            if node.val+1 == node.right.val:
-                self.helper(node.right, cur_l+1)
+            if node.right.val == node.val+1:
+                self.res = max(self.res, v+1)
+                self.helper(node.right,v+1)
             else:
                 self.helper(node.right, 1)
 
