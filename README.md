@@ -62,6 +62,7 @@
 | Leetcode 280| Wiggle Sort | _O(n)_| _O(1)_ |  |
 | Leetcode 324| Wiggle Sort II | _O(n)_| _O(n)_ |  |
 | Leetcode 560| Subarray Sum Equals K | _O(n)_| _O(n)_ |  |
+| Leetcode 4  |  Median of Two Sorted Arrays | _O((m+n)*log(m+n))_| _O(m+n)_ |  |
 
 
 
@@ -96,6 +97,7 @@
 | Leetcode 5| Longest Palindromic Substring | _O(n^2)_| _O(n^2)_ | DP |
 | Leetcode 214| Shortest Palindrome | _O(n)_| _O(n)_ |  |
 | Leetcode 336| Palindrome Pairs | _O(nk^2)_| _O(n)_ |  |
+| Leetcode 1246 | Palindrome Removal | _O(n^3)_| _O(n^2)_ |  |
 | Leetcode 20| Valid Parentheses | _O(n)_| _O(n)_ |  |
 | Leetcode 22| Generate Parentheses | _O(4^n)?_| _O(n)?_ | BackTracking |
 | Leetcode 32| Longest Valid Parentheses | _O(n)_| _O(n)_ | DP |
@@ -208,6 +210,8 @@
 | Leetcode 351 | Android Unlock Patterns               | _O(n!)_| _O(n)_ |  |
 | Leetcode 51  | N-Queens                              | _O(n!)_| _O(n)_ |  |
 | Leetcode 52  | N-Queens II                           | _O(n!)_| _O(n)_ |  |
+| Leetcode 491 | Increasing Subsequences | _O(2^n)_| _O(2^n)_ |  |
+
 
 
 Backtracking 的时间复杂度
@@ -269,8 +273,8 @@ Backtracking 的时间复杂度
 | Leetcode 374 | Guess Number Higher or Lower                            | __| __ |  |
 | Leetcode 34  | Find First and Last Position of Element in Sorted Array | __| __ |  |
 | Leetcode 350 | Intersection of Two Arrays II                           | __| __ | Two Pointer/HashMap/BS |
-| Leetcode 300 | Longest Increasing Subsequence                          | __| __ | BS/DP |
-| Leetcode 354 | Russian Doll Envelopes                                  | __| __ | BS/DP |
+| Leetcode 300 | Longest Increasing Subsequence                          | _O(nlogn)/O(n^2)_| _O(n)_ | BS/DP |
+| Leetcode 354 | Russian Doll Envelopes                                  | _O(nlogn)/O(n^2)_| _O(n)_ | BS/DP |
 
 
 ## Stack # Queue(or Heap)
@@ -366,7 +370,7 @@ Backtracking 的时间复杂度
 |  #  | Title | Time | Space | Remark |
 | ---- | ----- | ---- | ----- | -------- |
 | Leetcode 133 | Clone Graph                   | __| __ |  |
-| Leetcode 138 | Copy List with Random Pointer | __| __ |  |
+| Leetcode 138 | Copy List with Random Pointer | _O(n)_| _O(n)_ |  |
 | Leetcode 399 | Evaluate Division             | __| __ | DFS |
 | Leetcode 310 | Minimum Height Trees          | __| __ | Topological Sort |
 
