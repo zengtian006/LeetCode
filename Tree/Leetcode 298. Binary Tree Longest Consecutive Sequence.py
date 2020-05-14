@@ -8,15 +8,14 @@ class Solution:
         return self.res
     
     def helper(self, node, v):
+        self.res = max(self.res, v)
         if node.left:
             if node.left.val == node.val+1:
-                self.res = max(self.res, v+1)
                 self.helper(node.left,v+1)
             else:
                 self.helper(node.left, 1)
         if node.right:
             if node.right.val == node.val+1:
-                self.res = max(self.res, v+1)
                 self.helper(node.right,v+1)
             else:
                 self.helper(node.right, 1)

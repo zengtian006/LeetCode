@@ -63,6 +63,7 @@
 | Leetcode 324| Wiggle Sort II | _O(n)_| _O(n)_ |  |
 | Leetcode 560| Subarray Sum Equals K | _O(n)_| _O(n)_ |  |
 | Leetcode 4  |  Median of Two Sorted Arrays | _O((m+n)*log(m+n))_| _O(m+n)_ |  |
+| Leetcode 1239 | Maximum Length of a Concatenated String with Unique Characters | _O(2^n)_| _O(n)_ |  |
 
 
 
@@ -187,6 +188,8 @@
 | Leetcode 490 | The Maze        | _O(mn)_| _O(mn)_ | BFS |
 | Leetcode 505 | The Maze II       | _O(mn*log(mn))_| _O(mn)_ | Heap |
 | Leetcode 675 | Cut Off Trees for Golf Event       | _O(mn*log(mn))_| _O(mn)_ |  |
+| Leetcode 1436| Destination City | __| __ |  |
+| Leetcode 332 | Reconstruct Itinerary | __| __ |  |
 
 
 ## Backtracking
