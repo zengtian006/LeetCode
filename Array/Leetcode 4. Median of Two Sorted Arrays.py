@@ -1,3 +1,4 @@
+# 时间复杂度 O((m+n)*log(m+n))
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         l1,l2 = len(nums1),len(nums2)
