@@ -241,27 +241,29 @@ Backtracking 的时间复杂度
 ## Dynamic Programming
 |  #  | Title | Time | Space | Remark |
 | ---- | ----- | ---- | ----- | -------- |
-| Leetcode 70  | Climbing Stairs                 | __| __ |  |
-| Leetcode 62  | Unique Paths                    | __| __ | Same as 64 |
-| Leetcode 64  | Minimum Path Sum                | __| __ |  |
-| Leetcode 279 | Perfect Squares                 | __| __ | Same as 322,377 |
-| Leetcode 322 | Coin Change                     | __| __ |  |
-| Leetcode 377 | Combination Sum IV              | __| __ |  |
-| Leetcode 139 | Word Break                      | __| __ |  |
-| Leetcode 375 | Guess Number Higher or Lower II | __| __ |  |
-| Leetcode 256 | Paint House                     | __| __ |  |
-| Leetcode 265 | Paint House II                  | __| __ |  |
-| Leetcode 72  | Edit Distance                   | __| __ |  |
-| Leetcode 174 | Dungeon Game                    | __| __ |  |
-| Leetcode 221 | Maximal Square                  | __| __ |  |
-| Leetcode 85  | Maximal Rectangle               | __| __ |  |
-| Leetcode 312 | Burst Balloons                  | __| __ |  |
-| Leetcode 198 | House Robber                    | __| __ |  |
-| Leetcode 213 | House Robber II                 | __| __ |  |
-| Leetcode 276 | Paint Fence                     | __| __ |  |
-| Leetcode 91  | Decode Ways                     | __| __ |  |
-| Leetcode 10  | Regular Expression Matching     | __| __ |  |
-| Leetcode 44  | Wildcard Matching               | __| __ |  |
+| Leetcode 70  | Climbing Stairs                 | _O(n)_| _O(n)_ |  |
+| Leetcode 62  | Unique Paths                    | _O(n*m)_| _O(n*m)_ | Same as 64 |
+| Leetcode 64  | Minimum Path Sum                | _O(m*n)_| _O(m*n)_ |  |
+| Leetcode 279 | Perfect Squares                 | _O(n*n^0.5)_| _O(n)_ | Same as 322,377 |
+| Leetcode 322 | Coin Change                     | _O(s*n)_| _O(s)_ |  |
+| Leetcode 377 | Combination Sum IV              | _O(s*n)_| _O(s)_ |  |
+| Leetcode 139 | Word Break                      | _O(n^2)_| _O(n)_ |  |
+| Leetcode 375 | Guess Number Higher or Lower II | _O(n^3)_| _O(n^2)_ |  |
+| Leetcode 256 | Paint House                     | _O(n)_| _O(n)_ |  |
+| Leetcode 265 | Paint House II                  | _O(nk^2)_| _O(nk)_ |  |
+| Leetcode 72  | Edit Distance                   | _O(mn)_| _O(mn)_ |  |
+| Leetcode 174 | Dungeon Game                    | _O(mn)_| _O(mn)_ |  |
+| Leetcode 221 | Maximal Square                  | _O(mn)_| _O(mn)_ |  |
+| Leetcode 85  | Maximal Rectangle               | _O(mn)_| _O(mn)_ |  |
+| Leetcode 312 | Burst Balloons                  | _O(n^3)_| _O(n^2)_ |  |
+| Leetcode 198 | House Robber                    | _O(n)_| _O(n)_ |  |
+| Leetcode 213 | House Robber II                 | _O(n)_| _O(n)_ |  |
+| Leetcode 276 | Paint Fence                     | _O(n)_| _O(n)_ |  |
+| Leetcode 91  | Decode Ways                     | _O(n)_| _O(n)_ |  |
+| Leetcode 10  | Regular Expression Matching     | _O(mn)_| _O(mn)_ |  |
+| Leetcode 44  | Wildcard Matching               | _O(mn)_| _O(mn)_ |  |
+| Leetcode 1143 | Longest Common Subsequence     | _O(mn)_| _O(mn)_ |  |
+
 
 ## Binary Search
 |  #  | Title | Time | Space | Remark |
