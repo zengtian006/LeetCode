@@ -131,6 +131,8 @@
 | Leetcode 202 | Happy Number             | _O(logn)_ | _O(logn)_ |  |
 | Leetcode 263 | Ugly Number              | _O(logn)_ | _O(1)_ |  |
 | Leetcode 264 | Ugly Number II           | _O(n)_ | _O(n)_ |  |
+| Leetcode 223 | Rectangle Area           | _O(1)_ | _O(1)_ |  |
+
 
 
 ## Tree
