@@ -412,6 +412,7 @@ Backtracking 的时间复杂度
 | Leetcode 284 | Peeking Iterator                    |__| __ |  |
 | Leetcode 251 | Flatten 2D Vector                   |__| __ |  |
 | Leetcode 146 | LRU Cache                           |__| __ | Doubly liked list |
+| Leetcode 460 | LFU Cache                           |_O(1)_| _O(n)_ | Doubly liked list |
 | Leetcode 303 | Range Sum Query - Immutable         |__| __ | PreSum |
 | Leetcode 170 | Two Sum III - Data structure design |__| __ |  |
 | Leetcode 348 | Design Tic-Tac-Toe                  |__| __ |  |
