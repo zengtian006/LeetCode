@@ -6,6 +6,6 @@ class Solution:
             if s == '..':
                 if res:
                     res.pop()
-            elif s.isalpha() or (s and s!='.'):
+            elif s.isalpha() or (s and s!='.'): # "/..."
                 res.append(s)
         return '/' + '/'.join(res)

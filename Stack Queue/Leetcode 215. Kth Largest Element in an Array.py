@@ -11,6 +11,7 @@ class Solution:
 
 
 # Quick sort
+# O(n) 每层时间复杂度为 O(n)，但并不是都进入左右两部分递归。 仅进入一侧递归在平均情况下数组长度会减半，故时间复杂度为 n+n/2+n/4+…+1=O(n)n+n/2+n/4+…+1=O(n)。
 import random
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:

@@ -6,7 +6,7 @@ class Solution:
             points.append([l, h, 'start'])
             points.append([r, -h, 'end'])
         points.sort(key=lambda x:( x[0], -x[1]))
-        # start before end; start: lowest first, end: highest first
+        # X axis from left to right, if same X, Y axis from high to low
         print(points)
         res, max_heap= [], [0]
         for point in points:

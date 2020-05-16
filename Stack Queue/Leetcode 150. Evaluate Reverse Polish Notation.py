@@ -14,6 +14,7 @@ class Solution:
                     s = right * left
                 if token == '/':
                     s = math.trunc(left / right)
+                    #  s = int(left / right)
                 stack.append(str(s))
             else:
                 stack.append(token)

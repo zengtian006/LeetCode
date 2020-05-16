@@ -288,23 +288,23 @@ Backtracking 的时间复杂度
 ## Stack # Queue(or Heap)
 |  #  | Title | Time | Space | Remark |
 | ---- | ----- | ---- | ----- | -------- |
-| Leetcode 155           | Min Stack                        |__| __ |  |
-| Leetcode 232           | Implement Queue using Stacks     |__| __ |  |
-| Leetcode 225           | Implement Stack using Queues     |__| __ | 2 queues |
-| Leetcode 150           | Evaluate Reverse Polish Notation |__| __ |  |
-| Leetcode 71            | Simplify Path                    |__| __ |  |
-| Leetcode 394           | Decode String                    |__| __ | 2 stacks |
-| Leetcode 224           | Basic Calculator                 |__| __ | 2 stacks |
-| Leetcode 227           | Basic Calculator II              |__| __ |  |
-| Leetcode 385           | Mini Parser                      |__| __ |  |
-| Leetcode 84            | Largest Rectangle in Histogram   |__| __ |  |
-| Leetcode 215           | Kth Largest Element in an Array  |__| __ |  |
-| Leetcode 347           | Top K Frequent Elements          |__| __ |  |
-| Leetcode 218           | The Skyline Problem              |__| __ |  |
-| Leetcode 341           | Flatten Nested List Iterator     |__| __ |  |
-| Leetcode 373           | Find K Pairs with Smallest Sums     |__| __ |  |
-| Leetcode 378           | Kth Smallest Element in a Sorted Matrix    |__| __ |  |
-| Leetcode 1373          | Find K Pairs with Smallest Sums        |__| __ |  |
+| Leetcode 155           | Min Stack                        |_O(1)_| _O(n)_ |  |
+| Leetcode 232           | Implement Queue using Stacks     |_O(1)_| _O(n)_ | 2 stacks |
+| Leetcode 225           | Implement Stack using Queues     |_O(1)~O(n)_| _O(n)_ | 2 queues |
+| Leetcode 150           | Evaluate Reverse Polish Notation |_O(n)_| _O(n)_ |  |
+| Leetcode 71            | Simplify Path                    |_O(n)_| _O(n)_ |  |
+| Leetcode 394           | Decode String                    |_O(n)_| _O(n)_ | 2 stacks |
+| Leetcode 224           | Basic Calculator                 |_O(n)_| _O(n)_ | 2 stacks |
+| Leetcode 227           | Basic Calculator II              |_O(n)_| _O(n)_ |  |
+| Leetcode 385           | Mini Parser                      |_O(n)_| _O(n)klkj _ |  |
+| Leetcode 84            | Largest Rectangle in Histogram   |_O(n)_| _O(n)_ |  |
+| Leetcode 215           | Kth Largest Element in an Array  |_O(nlogn)_| _O(n)_ |  |
+| Leetcode 347           | Top K Frequent Elements          |_O(n)_| _O(n)_ | bucket sort |
+| Leetcode 218           | The Skyline Problem              |_O(nlogn)_| _O(n)_ |  |
+| Leetcode 341           | Flatten Nested List Iterator     |_O(n)_| _O(N)_ |  |
+| Leetcode 373           | Find K Pairs with Smallest Sums     |_O(klogk)_| _O(k)_ |  |
+| Leetcode 378           | Kth Smallest Element in a Sorted Matrix    |_O(klogk)_| _O(k)_ |  |
+| Leetcode 1439          | Find K Pairs with Smallest Sums of Matrix |__| __ |  |
 
 ## Matrix
 |  #  | Title | Time | Space | Remark |

@@ -1,31 +1,31 @@
 class Solution:
     def calculate(self, s: str) -> int:
-        stack_sign = []
-        stack_num = []
-        
+        sums_stack = []
+        sign_stack = []
         sums = 0
         sign = 1
-        i = 0
-        while i < len(s):
+        num = 0
+        s+='+'
+        for i in range(len(s)):
             if s[i].isdigit():
-                num = 0
-                while i< len(s) and s[i].isdigit():
-                    num = 10*num + int(s[i])
-                    i += 1
+                num = num*10 +int(s[i])
+            elif s[i] == '+':
                 sums += sign*num
-            else:
-                if s[i] == '+':
-                    sign = 1
-                elif s[i] == '-':
-                    sign = -1
-                elif s[i] == '(':
-                    stack_sign.append(sign)
-                    stack_num.append(sums)
-                    sums = 0
-                    sign = 1
-                elif s[i] == ')':
-                    sums = stack_num.pop() + stack_sign.pop()*sums
-                i+=1
+                sign = 1
+                num = 0
+            elif s[i] == '-':
+                sums += sign*num
+                sign = -1
+                num = 0
+            elif s[i] == '(':
+                sums_stack.append(sums)
+                sign_stack.append(sign)
+                sums = 0
+                sign = 1
+            elif s[i] == ')':
+                sums += sign*num
+                num = 0
+                sums = sums_stack.pop() + sign_stack.pop()*sums
         return sums
 
         # 遇到'(‘ 记录之前的数和sign
