@@ -218,6 +218,7 @@
 | Leetcode 51  | N-Queens                              | _O(n!)_| _O(n)_ |  |
 | Leetcode 52  | N-Queens II                           | _O(n!)_| _O(n)_ |  |
 | Leetcode 491 | Increasing Subsequences | _O(2^n)_| _O(2^n)_ |  |
+| Leetcode 1192| Critical Connections in a Network | _O(V+E)_| _O(n)_ |  |
 
 
 
