@@ -64,6 +64,7 @@
 | Leetcode 560| Subarray Sum Equals K | _O(n)_| _O(n)_ |  |
 | Leetcode 4  |  Median of Two Sorted Arrays | _py_| _O(m+n)_ |  |
 | Leetcode 1239 | Maximum Length of a Concatenated String with Unique Characters | _O(2^n)_| _O(n)_ |  |
+| Leetcode 135 | Candy | _O(n)_| _O(n)_ |  |
 
 
 
