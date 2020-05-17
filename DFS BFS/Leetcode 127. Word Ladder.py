@@ -4,21 +4,22 @@ class Solution:
         dic = set(wordList)
         if endWord not in dic:
             return 0
+        
+        step = 1
         q = collections.deque()
         q.append(beginWord)
-        steps = 0
         while q:
             size = len(q)
-            steps += 1
             for _ in range(size):
                 word = q.popleft()
                 for i in range(len(word)):
-                    for k in range(ord('a'), ord('z')+1):
-                        w = word[:i]+chr(k) +word[i+1:]
-                        if w in dic:
-                            if w == endWord:
-                                return steps+1
-                            else:
-                                q.append(w)
-                                dic.remove(w)
+                    for char in range(ord('a'), ord('z')+1):
+                        char = chr(char)
+                        new_word = word[:i] +char +word[i+1:]
+                        if new_word == endWord:
+                            return step+1
+                        if new_word in dic:
+                            q.append(new_word)
+                            dic.remove(new_word)
+            step+=1
         return 0
