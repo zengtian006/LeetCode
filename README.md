@@ -307,6 +307,7 @@ Backtracking 的时间复杂度
 | Leetcode 373           | Find K Pairs with Smallest Sums     |_O(klogk)_| _O(k)_ |  |
 | Leetcode 378           | Kth Smallest Element in a Sorted Matrix    |_O(klogk)_| _O(k)_ |  |
 | Leetcode 1439          | Find K Pairs with Smallest Sums of Matrix |__| __ |  |
+| Leetcode 739           | Daily Temperatures |_O(n)_| _O(n)_ |  |
 
 ## Matrix
 |  #  | Title | Time | Space | Remark |
