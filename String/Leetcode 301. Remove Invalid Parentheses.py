@@ -1,4 +1,4 @@
-import collections
+# 求所有的可能，考虑BFS， DFS， Backtracking， Divid and Conqure
 class Solution:
     def removeInvalidParentheses(self, s: str) -> List[str]:
         q = collections.deque([s])
@@ -34,4 +34,40 @@ class Solution:
         return count == 0
 
 
-# 求所有的可能，考虑BFS， DFS， Backtracking， Divid and Conqure
+
+
+# Backtracking
+class Solution:
+    
+    def removeInvalidParentheses(self, s: str) -> List[str]:
+        visited = set()
+        self.ml = -1
+        self.lens = collections.defaultdict(set)
+        self.helper(s, visited)
+        return list(self.lens[self.ml])
+    
+    def helper(self, s, visited):
+        if s in visited:
+            return
+        if self.isValid(s):
+            if len(s) >= self.ml:
+                self.ml = len(s)
+                self.lens[len(s)].add(s)
+        visited.add(s)
+        for i in range(len(s)):
+            if s[i] in '()':
+                ss = s[:i] + s[i+1:]
+                if ss not in visited:
+                    self.helper(ss,visited)
+            
+            
+    def isValid(self, s):
+        count = 0
+        for c in s:
+            if c == '(':
+                count +=1
+            elif c==')':
+                count -=1
+            if count < 0 :
+                return False
+        return count == 0

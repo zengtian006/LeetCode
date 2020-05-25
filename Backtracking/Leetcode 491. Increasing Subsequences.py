@@ -1,3 +1,21 @@
+# improved recursive
+class Solution:
+    def findSubsequences(self, nums: List[int]) -> List[List[int]]:
+        res = set()
+        self.helper(nums, 0,[], res)
+        return list(res)
+    
+    def helper(self, nums, idx, tempList, res):
+        if len(tempList)>1:
+            # if tempList not in res:
+            res.add(tuple(tempList))
+
+        for i in range(idx, len(nums)):
+            if not tempList or nums[i] >= tempList[-1]:
+                self.helper(nums, i+1, tempList+[nums[i]], res)
+
+
+# recursive
 class Solution:
     def findSubsequences(self, nums: List[int]) -> List[List[int]]:
         res = []
@@ -13,6 +31,7 @@ class Solution:
                 self.helper(nums, i+1, tempList+[nums[i]], res)
 
 
+# Iterative
 class Solution:
     def findSubsequences(self, nums: List[int]) -> List[List[int]]:
         res = []

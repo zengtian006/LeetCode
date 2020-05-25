@@ -66,6 +66,8 @@
 | Leetcode 1239 | Maximum Length of a Concatenated String with Unique Characters | _O(2^n)_| _O(n)_ |  |
 | Leetcode 135 | Candy | _O(n)_| _O(n)_ |  |
 | Leetcode 581 | Shortest Unsorted Continuous Subarray | _O(n)_| _O(n)_ |  |
+| Leetcode 503 | Next Greater Element II | _O(n)_| _O(n)_ |  |
+| Leetcode 496 | Next Greater Element I | _O(n)_| _O(n)_ |  |
 
 
 
@@ -102,6 +104,7 @@
 | Leetcode 336| Palindrome Pairs | _O(nk^2)_| _O(n)_ |  |
 | Leetcode 1246 | Palindrome Removal | _O(n^3)_| _O(n^2)_ |  |
 | Leetcode 20| Valid Parentheses | _O(n)_| _O(n)_ |  |
+| Leetcode 1249 | Minimum Remove to Make Valid Parentheses | _O(n)_| _O(n)_ |  |
 | Leetcode 22| Generate Parentheses | _O(4^n)?_| _O(n)?_ | BackTracking |
 | Leetcode 32| Longest Valid Parentheses | _O(n)_| _O(n)_ | DP |
 | Leetcode 241| Different Ways to Add Parentheses | _?_| _?_ | Divide&Conquer |
@@ -111,6 +114,7 @@
 | Leetcode 844| Backspace String Compare	 | _O(m+n)_| _O(1)_ | Two Pointer |
 | Leetcode 763| Partition Labels | _O(n)_| _O(n)_ | |
 | Leetcode 616| Add Bold Tag in String	 | _?_| _O(n)_ | |
+| Leetcode 97 | Interleaving String | _O(mn)_| _O(mn)_ | |
 
 
 ## Math  
@@ -177,6 +181,7 @@
 | Leetcode 103  | Binary Tree Zigzag Level Order Traversal | _O(n)_| _O(n)_ |  |
 | Leetcode 543  | Diameter of Binary Tree | _O(n)_| _O(logn)_ | 124 |
 | Leetcode 428  | Serialize and Deserialize N-ary Tree | _O(n)_| _O(n)_ |  |
+| Leetcode 987  | Vertical Order Traversal of a Binary Tree | _O(n)_| _O(n)_ |  |
 
 ## DFS & BFS
 |  #  | Title | Time | Space | Remark |
@@ -195,6 +200,8 @@
 | Leetcode 1436| Destination City | __| __ |  |
 | Leetcode 332 | Reconstruct Itinerary | __| __ |  |
 | Leetcode 787 | Cheapest Flights Within K Stops | _py_| _O(n)_ |  |
+| Leetcode 994 |  Rotting Oranges     | _O(mn)_| _O(mn)_ | BFS |
+| Leetcode 815 | Bus Routes           | __| __ | BFS |
 
 
 ## Backtracking
@@ -214,12 +221,13 @@
 | Leetcode 291 | Word Pattern II                       | _O(n*(Cnm)_| _On)_ |  |
 | Leetcode 17  | Letter Combinations of a Phone Number | _O(3^n*4^m_| _O(n)_ |  |
 | Leetcode 282 | Expression Add Operators              | _O(n*4^n)_| _O(n)_ |  |
-| Leetcode 140 | Word Break II                         | _O(2^n)_| _O(n)_ |  |
+| Leetcode 140 | Word Break II                         | _O(n^2)_| _O(n)_ |  |
 | Leetcode 351 | Android Unlock Patterns               | _O(n!)_| _O(n)_ |  |
 | Leetcode 51  | N-Queens                              | _O(n!)_| _O(n)_ |  |
 | Leetcode 52  | N-Queens II                           | _O(n!)_| _O(n)_ |  |
 | Leetcode 491 | Increasing Subsequences | _O(2^n)_| _O(2^n)_ |  |
 | Leetcode 1192| Critical Connections in a Network | _O(V+E)_| _O(n)_ |  |
+| Leetcode 93  |Restore IP Addresses | _O(2^n)_| _O(2^n)_ |  |
 
 
 
@@ -269,6 +277,7 @@ Backtracking 的时间复杂度
 | Leetcode 10  | Regular Expression Matching     | _O(mn)_| _O(mn)_ |  |
 | Leetcode 44  | Wildcard Matching               | _O(mn)_| _O(mn)_ |  |
 | Leetcode 1143 | Longest Common Subsequence     | _O(mn)_| _O(mn)_ |  |
+| Leetcode 472 | Concatenated Words               | _O(nl)_| _O(l)_ |  |
 
 
 ## Binary Search
@@ -303,12 +312,14 @@ Backtracking 的时间复杂度
 | Leetcode 84            | Largest Rectangle in Histogram   |_O(n)_| _O(n)_ |  |
 | Leetcode 215           | Kth Largest Element in an Array  |_O(nlogn)_| _O(n)_ |  |
 | Leetcode 347           | Top K Frequent Elements          |_O(n)_| _O(n)_ | bucket sort |
+| Leetcode 692           | Top K Frequent Words             |_O(nlogn)_| _O(n)_ | bucket sort |
 | Leetcode 218           | The Skyline Problem              |_O(nlogn)_| _O(n)_ |  |
 | Leetcode 341           | Flatten Nested List Iterator     |_O(n)_| _O(N)_ |  |
 | Leetcode 373           | Find K Pairs with Smallest Sums     |_O(klogk)_| _O(k)_ |  |
 | Leetcode 378           | Kth Smallest Element in a Sorted Matrix    |_O(klogk)_| _O(k)_ |  |
 | Leetcode 1439          | Find K Pairs with Smallest Sums of Matrix |__| __ |  |
 | Leetcode 739           | Daily Temperatures |_O(n)_| _O(n)_ |  |
+
 
 ## Matrix
 |  #  | Title | Time | Space | Remark |
@@ -320,11 +331,16 @@ Backtracking 的时间复杂度
 | Leetcode 1311  | Sparse Matrix Multiplication                           |__| __ |  |
 | Leetcode 1378  | Kth Smallest Element in a Sorted Matrix                |__| __ |  |
 | Leetcode 174   | Search a 2D Matrix                                     |__| __ |  |
-| Leetcode 1240  | Search a 2D Matrix II                                  |__| __ |  |
+| Leetcode 1240  | Search a 2D Matrix II                                  |_O(m+n)_| _O(1)_ |  |
 | Leetcode 179   | Word Search                                            |__| __ |  |
+| Leetcode 1219  | Path with Maximum Gold                                 |__| __ | Same as word search |
 | Leetcode 1361  | Bomb Enemy                                             |__| __ |  |
 | Leetcode 136   | Valid Sudoku                                           |__| __ |  |
 | Leetcode 137   | Sudoku Solver                                          |__| __ | BackTracking |
+| Leetcode 909   | Snakes and Ladders                                     |__| __ | BFS |
+| Leetcode 1102  | Path With Maximum Minimum Value                        |__| __ | Greedy |
+| Leetcode 296   | Best Meeting Point                                     |__| __ | BFS |
+| Leetcode 317   | Shortest Distance from All Buildings                   |__| __ | BFS |
 
 
 ## LinkedList
@@ -385,6 +401,8 @@ Backtracking 的时间复杂度
 | Leetcode 138 | Copy List with Random Pointer | _O(n)_| _O(n)_ |  |
 | Leetcode 399 | Evaluate Division             | __| __ | DFS |
 | Leetcode 310 | Minimum Height Trees          | __| __ | Topological Sort |
+| Leetcode 1152. Analyze User Website Visit Pattern | __| __ | Topological Sort |
+
 
 ## Union Find
 |  #  | Title | Time | Space | Remark |
@@ -405,7 +423,6 @@ Backtracking 的时间复杂度
 | Leetcode 635 | Design Log Storage System | __ | __ |  |
 
 
-
 ## Design
 |  #  | Title | Time | Space | Remark |
 | ---- | ----- | ---- | ----- | -------- |
@@ -423,6 +440,9 @@ Backtracking 的时间复杂度
 | Leetcode 353 | Design Snake Game                   |__| __ |  |
 | Leetcode 355 | Design Twitter                      |__| __ | OOD |
 | Leetcode 706 | Design HashMap                      |__| __ |  |
+| Leetcode 622 | Design Circular Queue               |__| __ |  |
+| Leetcode 895 | Maximum Frequency Stack             |__| __ |  |
+| Leetcode 307 | Range Sum Query - Mutable           |_O(logn)~O(n)_| _O(n)_ |  Segment Trees | 
 
 
 ## Non-Leetcode

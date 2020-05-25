@@ -70,3 +70,15 @@ class Solution:
             self.helper(grid, i-1, j)
             self.helper(grid, i, j+1)
             self.helper(grid, i, j-1)
+
+
+    #helper两种写法
+    # def helper(self, grid, x, y,visited ):
+    #     visited.add((x,y))
+    #     dirs = [(0,1),(0,-1),(1,0),(-1,0)]
+    #     m, n = len(grid), len(grid[0])
+    #     for dx, dy in dirs:
+    #         nx = dx + x
+    #         ny = dy + y
+    #         if 0<=nx<m and 0<=ny<n and (nx,ny) not in visited and grid[nx][ny] == '1':
+    #             self.helper(grid, nx, ny, visited)
