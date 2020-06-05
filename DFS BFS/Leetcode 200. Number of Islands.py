@@ -54,22 +54,25 @@ class Solution:
         if not grid:
             return 0
         m, n = len(grid), len(grid[0])
-        dirs = [(0,1), (0,-1), (1,0), (-1,0)]
         res = 0
+        dirs = [(1,0),(-1,0), (0,1),(0,-1)]
+        visited = set()
         for i in range(m):
             for j in range(n):
-                if grid[i][j] == '1':
+                if grid[i][j] == '1' and (i,j) not in visited:
                     res += 1
-                    self.helper(grid, i, j)
+                    self.helper(grid, i, j, visited)
+                    
         return res
-    def helper(self, grid, i, j):
+    
+    def helper(self, grid, x, y,visited):
         m, n = len(grid), len(grid[0])
-        if 0<=i<m and 0<=j<n and grid[i][j] == '1':
-            grid[i][j] = '#'
-            self.helper(grid, i+1, j)
-            self.helper(grid, i-1, j)
-            self.helper(grid, i, j+1)
-            self.helper(grid, i, j-1)
+        if 0<=x<m and 0<=y<n and (x,y) not in visited and grid[x][y] == '1':
+            visited.add((x,y))
+            self.helper(grid, x+1, y, visited)
+            self.helper(grid, x-1, y, visited)
+            self.helper(grid, x, y+1, visited)
+            self.helper(grid, x, y-1, visited)
 
 
     #helper两种写法

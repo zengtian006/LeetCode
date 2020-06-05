@@ -42,6 +42,7 @@
 | Leetcode 289 | Game of Life | _O(m*n)_| _O(1)_ |  |
 | Leetcode 57  | Insert Interval | _O(n)_| _O(1)_ |  |
 | Leetcode 56  | Merge Intervals | _O(nlogn)_| _O(1)_ |  |
+| Leetcode 986 | Interval List Intersections | _O(m+n)_| _O(1)_ |  |
 | Leetcode 252| Meeting Rooms | _O(nlogn)_| _O(1)_ |  |
 | Leetcode 253| Meeting Rooms II | _O(nlogn)_| _O(n)_ |  |
 | Leetcode 352| Data Stream as Disjoint Intervals | _O(n)_| _O(1)_ |  |
@@ -68,7 +69,8 @@
 | Leetcode 581 | Shortest Unsorted Continuous Subarray | _O(n)_| _O(n)_ |  |
 | Leetcode 503 | Next Greater Element II | _O(n)_| _O(n)_ |  |
 | Leetcode 496 | Next Greater Element I | _O(n)_| _O(n)_ |  |
-
+| Leetcode 525 | Contiguous Array | _O(n)_| _O(n)_ |  |
+| Leetcode 977 | Squares of a Sorted Array | _O(n)_| _O(n)_ |  |
 
 
 ## String
@@ -99,7 +101,9 @@
 | Leetcode 3| Longest Substring Without Repeating Characters | _O(n)_| _O(m)_ | Sliding Window |
 | Leetcode 340| Longest Substring with At Most K Distinct Characters | _O(n)_| _O(k)_ | Sliding Window |
 | Leetcode 125| Valid Palindrome | _O(n)_| _O(1)_ | Two Pointer |
+| Leetcode 680 | Valid Palindrome II | _O(n)_| _O(n)_ | Two Pointer |
 | Leetcode 5| Longest Palindromic Substring | _O(n^2)_| _O(n^2)_ | DP |
+| Leetcode 516 | Longest Palindromic Subsequence | _O(n^2)_| _O(n^2)_ | DP |
 | Leetcode 214| Shortest Palindrome | _O(n)_| _O(n)_ |  |
 | Leetcode 336| Palindrome Pairs | _O(nk^2)_| _O(n)_ |  |
 | Leetcode 1246 | Palindrome Removal | _O(n^3)_| _O(n^2)_ |  |
@@ -115,6 +119,8 @@
 | Leetcode 763| Partition Labels | _O(n)_| _O(n)_ | |
 | Leetcode 616| Add Bold Tag in String	 | _?_| _O(n)_ | |
 | Leetcode 97 | Interleaving String | _O(mn)_| _O(mn)_ | |
+| Leetcode 767 | Reorganize String | _O(nlogn)_| _O(n)_ | |
+| Leetcode 438 | Find All Anagrams in a String | _O(n)_| _O(n)_ | |
 
 
 ## Math  
@@ -124,6 +130,7 @@
 | Leetcode 66  | Plus One                 | _O(n)_ | _O(1)_ |  |
 | Leetcode 8   | String to Integer (atoi) | _O(n)_|  _O(1)_ |  |
 | Leetcode 67  | Add Binary               | _O(n)_ | _O(1)_ |  |
+| Leetcode 445 | Add Two Numbers II       | _O(n)_ | _O(n)_ |  |
 | Leetcode 43  | Multiply Strings         | _O(m*n)_|  _O(m+n)_ |  |
 | Leetcode 29  | Divide Two Integers      | _O(n)_ | _O(1)_ |  |
 | Leetcode 69  | Sqrt(x)                  | _O(logn)_ | _O(1)_ | Binary Search  |
@@ -138,7 +145,7 @@
 | Leetcode 263 | Ugly Number              | _O(logn)_ | _O(1)_ |  |
 | Leetcode 264 | Ugly Number II           | _O(n)_ | _O(n)_ |  |
 | Leetcode 223 | Rectangle Area           | _O(1)_ | _O(1)_ |  |
-
+| Leetcode 670 | Maximum Swap             | _O(n)_ | _O(n)_ |  |
 
 
 ## Tree
@@ -182,6 +189,9 @@
 | Leetcode 543  | Diameter of Binary Tree | _O(n)_| _O(logn)_ | 124 |
 | Leetcode 428  | Serialize and Deserialize N-ary Tree | _O(n)_| _O(n)_ |  |
 | Leetcode 987  | Vertical Order Traversal of a Binary Tree | _O(n)_| _O(n)_ |  |
+| Leetcode 938  |Range Sum of BST | _O(n)_| _O(1)_ |  |
+| Leetcode 450. Delete Node in a BST | _O(logn)_| _O(logn)_ |  |
+
 
 ## DFS & BFS
 |  #  | Title | Time | Space | Remark |
@@ -199,9 +209,14 @@
 | Leetcode 675 | Cut Off Trees for Golf Event       | _O(mn*log(mn))_| _O(mn)_ |  |
 | Leetcode 1436| Destination City | __| __ |  |
 | Leetcode 332 | Reconstruct Itinerary | __| __ |  |
-| Leetcode 787 | Cheapest Flights Within K Stops | _py_| _O(n)_ |  |
+| Leetcode 787 | Cheapest Flights Within K Stops | _py_| _O(n)_ | Dijkstra |
+| Leetcode 743 | Network Delay Time | __| __ | Dijkstra |
 | Leetcode 994 |  Rotting Oranges     | _O(mn)_| _O(mn)_ | BFS |
 | Leetcode 815 | Bus Routes           | __| __ | BFS |
+| Leetcode 638 | Shopping Offers  | __| __ |  |
+| Leetcode 1269 | Number of Ways to Stay in the Same Place After Some Steps | __| __ |  |
+| Leetcode 329 | Longest Increasing Path in a Matrix | __| __ |  |
+| Leetcode 1197 | Minimum Knight Moves | __| __ | BFS |
 
 
 ## Backtracking
@@ -277,7 +292,8 @@ Backtracking 的时间复杂度
 | Leetcode 10  | Regular Expression Matching     | _O(mn)_| _O(mn)_ |  |
 | Leetcode 44  | Wildcard Matching               | _O(mn)_| _O(mn)_ |  |
 | Leetcode 1143 | Longest Common Subsequence     | _O(mn)_| _O(mn)_ |  |
-| Leetcode 472 | Concatenated Words               | _O(nl)_| _O(l)_ |  |
+| Leetcode 472 | Concatenated Words              | _O(nl)_| _O(l)_ |  |
+| Leetcode 983 | Minimum Cost For Tickets        | _O(n)_| _O(n)_ |  |
 
 
 ## Binary Search
@@ -295,6 +311,7 @@ Backtracking 的时间复杂度
 | Leetcode 350 | Intersection of Two Arrays II                           | __| __ | Two Pointer/HashMap/BS |
 | Leetcode 300 | Longest Increasing Subsequence                          | _O(nlogn)/O(n^2)_| _O(n)_ | BS/DP |
 | Leetcode 354 | Russian Doll Envelopes                                  | _O(nlogn)/O(n^2)_| _O(n)_ | BS/DP |
+| Leetcode 658 | Find K Closest Elements                                 | __| __ |  |
 
 
 ## Stack # Queue(or Heap)
@@ -319,6 +336,7 @@ Backtracking 的时间复杂度
 | Leetcode 378           | Kth Smallest Element in a Sorted Matrix    |_O(klogk)_| _O(k)_ |  |
 | Leetcode 1439          | Find K Pairs with Smallest Sums of Matrix |__| __ |  |
 | Leetcode 739           | Daily Temperatures |_O(n)_| _O(n)_ |  |
+| Leetcode 621           | Task Scheduler |__| __ |  |
 
 
 ## Matrix
@@ -452,3 +470,4 @@ Backtracking 的时间复杂度
 |  | Integer to Chinese             |__| __ | |
 |  | Print Nodes in Top View of Binary Tree |__| __ | |
 |  | Bottom View of Binary Tree | __| __ | |
+|  | K Decimal Addition | __| __ | |

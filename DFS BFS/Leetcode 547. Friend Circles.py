@@ -16,7 +16,7 @@ class Solution:
                 visited[j] = 1
                 self.dfs(M, j, visited)
 
-# DFS
+# DFS iterative
 class Solution:
     def findCircleNum(self, M: List[List[int]]) -> int:
         res = 0

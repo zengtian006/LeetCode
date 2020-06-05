@@ -1,3 +1,25 @@
+# Dijkstra's 
+class Solution:
+    def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, K: int) -> int:
+        dic = collections.defaultdict(dict)
+        for s,d,c in flights:
+            dic[s][d] = c
+        dist = {}
+        dist[src] = 0
+        q = []
+        heapq.heappush(q,(0,0,src))
+        while q:
+            d, k, node = heapq.heappop(q)
+            if k>K+1 or d > dist.get((k,node),float('inf')):
+                continue
+            if node == dst:
+                return d
+            for nxt in dic[node]:
+                if dist.get((k+1, nxt),float('inf'))>d+dic[node][nxt]:
+                    dist[k+1, nxt] = d + dic[node][nxt]
+                    heapq.heappush(q,(dist[k+1, nxt],k+1, nxt))
+        return  -1
+
 # DFS
 # 时间复杂度 O(K*E)  E代表有多少条边(航线)，最坏情况每条边遍历K次
 class Solution:

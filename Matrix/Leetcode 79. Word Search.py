@@ -1,4 +1,30 @@
 class Solution:
+    def exist(self, board, word):
+        # write your code here
+        m, n = len(board), len(board[0])
+        for i in range(m):
+            for j in range(n):
+                if board[i][j] == word[0]:
+                    if self.helper(board, i, j, 1, word, set()):
+                        return True
+        return False
+        
+    def helper(self, board, x, y, idx, word, visited):
+        if idx == len(word):
+            return True
+        visited.add((x,y))
+        dirs = [(0,1),(0,-1),(-1,0),(1,0)]
+        m, n = len(board), len(board[0])
+        for dx, dy in dirs:
+            nx = dx + x
+            ny = dy + y
+            if 0<=nx<m and 0<=ny<n and (nx,ny) not in visited and board[nx][ny] == word[idx]:
+                if self.helper(board, nx, ny, idx+1, word, visited):
+                    return True
+        visited.remove((x,y))
+        return False
+        
+class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         if not board: return False
         m, n = len(board), len(board[0])
