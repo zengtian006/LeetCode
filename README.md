@@ -121,6 +121,7 @@
 | Leetcode 97 | Interleaving String | _O(mn)_| _O(mn)_ | |
 | Leetcode 767 | Reorganize String | _O(nlogn)_| _O(n)_ | |
 | Leetcode 438 | Find All Anagrams in a String | _O(n)_| _O(n)_ | |
+| Leetcode 1156 | Swap For Longest Repeated Character Substring | _O(n)_| _O(n)_ | |
 
 
 ## Math  
@@ -190,7 +191,9 @@
 | Leetcode 428  | Serialize and Deserialize N-ary Tree | _O(n)_| _O(n)_ |  |
 | Leetcode 987  | Vertical Order Traversal of a Binary Tree | _O(n)_| _O(n)_ |  |
 | Leetcode 938  |Range Sum of BST | _O(n)_| _O(1)_ |  |
-| Leetcode 450. Delete Node in a BST | _O(logn)_| _O(logn)_ |  |
+| Leetcode 450  |Delete Node in a BST | _O(logn)_| _O(logn)_ |  |
+| Leetcode 549  | Binary Tree Longest Consecutive Sequence II | __| __ |  |
+| Leetcode 1339 | Maximum Product of Splitted Binary Tree | _O(n)_| _O(n)_ |  |
 
 
 ## DFS & BFS
