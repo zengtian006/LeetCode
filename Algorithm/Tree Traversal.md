@@ -176,15 +176,13 @@
 
 ## GetMaxSum ([Leetcode 124](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/))
 
+```
    -10(25)
-   
-    / \
-    
+    / \   
  9(9)  20(35)
- 
-        /  \
-        
+        /  \      
     15(15)  7(7)
+```
 
 MaxPathSum would be [20,15,17] as the max path does not need to go through the root
 
