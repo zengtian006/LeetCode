@@ -151,19 +151,15 @@
 
 ## GetMaxHeight ([Leetcode 104](https://leetcode.com/problems/maximum-depth-of-binary-tree/))
 
-        3(4)
-        
+ ``` 
+        3(4)       
        / \
-       
     9(3)   7(1)
-    
      / \
-     
   15(2) 8(1)
-  
    /
-   
 2(1)
+```
 
 ```python
     def getMaxHeight(self, root: TreeNode) -> List[int]:
