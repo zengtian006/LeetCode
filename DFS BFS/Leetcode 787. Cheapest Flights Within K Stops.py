@@ -8,6 +8,7 @@ class Solution:
         dist[(0,src)] = 0
         q = []
         heapq.heappush(q,(0,0,src))
+        
         while q:
             d, k, node = heapq.heappop(q)
             if k>K+1 or d > dist.get((k,node),float('inf')):
@@ -15,9 +16,10 @@ class Solution:
             if node == dst:
                 return d
             for nxt in dic[node]:
-                if dist.get((k+1, nxt),float('inf'))>d+dic[node][nxt]:
-                    dist[k+1, nxt] = d + dic[node][nxt]
-                    heapq.heappush(q,(dist[k+1, nxt],k+1, nxt))
+                new_d = d + dic[node][nxt]
+                if dist.get((k+1, nxt),float('inf')) > new_d:
+                    dist[k+1, nxt] = new_d
+                    heapq.heappush(q,(new_d,k+1, nxt))
         return  -1
 
 # DFS
