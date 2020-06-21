@@ -69,3 +69,5 @@ Permutations
 [Leetcode 46. Permutations](https://leetcode.com/problems/permutations/description/)
 
 [Leetcode 47. Permutations II](https://leetcode.com/problems/permutations-ii/)
+
+[Leetcode 282. Expression Add Operators](https://leetcode.com/problems/expression-add-operators/description/)
