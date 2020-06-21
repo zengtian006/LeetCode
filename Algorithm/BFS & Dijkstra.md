@@ -39,6 +39,7 @@
 
 [Leetcode 994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
 
+[Leetcode 815. Bus Routes](https://leetcode.com/problems/bus-routes/)
 
 
 ## Dijkstra
