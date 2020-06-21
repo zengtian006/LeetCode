@@ -60,3 +60,11 @@ Permutations
             visited.remove(i)
 ```
 
+- 练习题
+[Leetcode 78. Subsets](https://leetcode.com/problems/subsets/description/)
+
+[Leetcode 90. Subsets II](https://leetcode.com/problems/subsets-ii/)
+
+[Leetcode 46. Permutations](https://leetcode.com/problems/permutations/description/)
+
+[Leetcode 47. Permutations II](https://leetcode.com/problems/permutations-ii/)
