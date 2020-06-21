@@ -297,6 +297,7 @@ Backtracking 的时间复杂度
 | Leetcode 1143 | Longest Common Subsequence     | _O(mn)_| _O(mn)_ |  |
 | Leetcode 472 | Concatenated Words              | _O(nl)_| _O(l)_ |  |
 | Leetcode 983 | Minimum Cost For Tickets        | _O(n)_| _O(n)_ |  |
+| Leetcode 368 | Largest Divisible Subset        | _O(n^2)_| _O(n^2)_ |  |
 
 
 ## Binary Search

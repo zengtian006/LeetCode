@@ -7,7 +7,7 @@
 # 每一位都要访问到，并且最终回归到第0位
 
 class Solution:
-    def reverse(self, x: int) -> int:
+    def scrollingNumbers(self, x: int) -> int:
         
         def check(x):
             visited = set()
@@ -41,6 +41,6 @@ class Solution:
             if dup:
                 continue
                     
-            if check(1):
+            if check(char):
                 res.append(num)
         return res

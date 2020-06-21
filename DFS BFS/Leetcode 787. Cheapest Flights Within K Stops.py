@@ -5,7 +5,7 @@ class Solution:
         for s,d,c in flights:
             dic[s][d] = c
         dist = {}
-        dist[src] = 0
+        dist[(0,src)] = 0
         q = []
         heapq.heappush(q,(0,0,src))
         while q:
@@ -55,7 +55,6 @@ class Solution:
         dic = collections.defaultdict(dict)
         for s,d,c in flights:
             dic[s][d] = c
-        visited = [0]*n
         res = float('inf')
         q = collections.deque()
         k = K+1
